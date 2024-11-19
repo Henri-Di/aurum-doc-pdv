@@ -37,7 +37,7 @@
             <div class="col">
                 <form>
                     <!-- Título da Seção do Formulário -->
-                    <h3><i class="fa fa-cube"></i> Novo Produto</h3>
+                    <h3><i class="fa fa-cube"></i> Produto</h3>
                     
                     <!-- Campo: Código Interno -->
                     <div>

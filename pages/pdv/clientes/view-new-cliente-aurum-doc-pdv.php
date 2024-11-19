@@ -37,7 +37,7 @@
             <div class="col">
                 <form>
                     <!-- Título da Seção do Formulário -->
-                    <h3><i class="fa fa-user"></i> Cliente - Pessoa Fisíca</h3>
+                    <h3><i class="fa fa-user"></i> Pessoa Fisíca</h3>
                     
                     <!-- Campo: Código Interno -->
                     <div>

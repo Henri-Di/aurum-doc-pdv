@@ -34,111 +34,111 @@
 <body>
     <div class="container">
         <h2>AURUM</h2>
-        <h6>SISTEMA DE VENDAS <i class="fa fa-child"></i></h6>
+        <h6>SISTEMA DE VENDAS <i class="fa fa-child" aria-hidden="true"></i></h6>
 
         <div class="row">
             <div class="col col-narrow">
-                <h5><i class="fa fa-star"></i> FAVORITOS</h5>
+                <h5><i class="fa fa-star" aria-hidden="true"></i> FAVORITOS</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> CÓDIGO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> EAN</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> NOME</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> PREÇO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> DATA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> ESTOQUE</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> STATUS</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star"></i> TIPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"></i> MAIS</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
                 </div>
 
-                <h5><i class="fa fa-cube"></i> PRODUTO</h5>
+                <h5><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> CÓDIGO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> EAN</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> NOME</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> PREÇO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> DATA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> STATUS</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> ESTOQUE</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> TIPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube"></i> MAIS</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
                 </div>
                 
-                <h5><i class="fa fa-circle"></i> MARCA</h5>
+                <h5><i class="fa fa-circle" aria-hidden="true"></i> MARCA</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> CÓDIGO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> EAN</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> NOME</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> PREÇO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> DATA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> ESTOQUE</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> STATUS</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> TIPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"></i> MAIS</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
                 </div>
 
-                <h5><i class="fa fa-certificate"></i> MODELO</h5>
+                <h5><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> CÓDIGO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> EAN</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> NOME</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> PREÇO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> DATA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate"></i> ESTOQUE</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> STATUS</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> TIPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"></i> MAIS</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
                 </div>
 
-                <h5><i class="fa fa-tags"></i> GRUPO</h5>
+                <h5><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> CÓDIGO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> EAN</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> NOME</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> PREÇO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> DATA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags"></i> ESTOQUE</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> STATUS</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> TIPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"></i> MAIS</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
                 </div>
 
-                <h5><i class="fa fa-truck"></i> FORNECEDOR</h5>
+                <h5><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> CÓDIGO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> EAN</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> NOME</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> PREÇO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> DATA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck"></i> ESTOQUE</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> STATUS</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle"></i> TIPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"></i> MAIS</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> FORNECEDOR</button>
+                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
                 </div>
 
             </div>
 
 
             <div class="col .col-wide">
-                <h5><i class="fa fa-shopping-cart"></i> NOVO CUPOM</h5>
+                <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO CUPOM</h5>
                 <button id="btn-bg-vender-new-venda-page-search-form"><i class="fa fa-search"></i> PESQUISAR</button>
                 <table class="table table-bordered">
                     <tr>
@@ -265,33 +265,41 @@
                     </tr>
                 </table>
                 <div id="total-venda-new-venda-page">R$ 0.00</div>
-                <h5><i class="fa fa-shopping-cart"></i> VENDA</h5>
+                <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i> VENDA</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-cart-plus"></i> REALIZAR VENDA</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-times"></i> CANCELAR VENDA</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-times"></i> ADICIONAR ITEM</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-times"></i> REMOVER ITEM</button>
+                <button id="btn-bg-vender-new-venda-page">REALIZAR VENDA <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">CANCELAR VENDA <i class="fa fa-times" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">ADICIONAR ITEM <i class="fa fa-times" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">REMOVER ITEM <i class="fa fa-times" aria-hidden="true"></i></button>
                 
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-random"></i> DESCONTO ITEM</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-refresh"></i> DESCONTO TOTAL</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-user"></i> INSERIR VENDEDOR</button>  
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-user"></i> INSERIR CLIENTE</button> 
+                <button id="btn-bg-vender-new-venda-page">DESCONTO ITEM <i class="fa fa-random" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">DESCONTO TOTAL <i class="fa fa-refresh" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">INSERIR VENDEDOR <i class="fa fa-user" aria-hidden="true"></i></button>  
+                <button id="btn-bg-vender-new-venda-page">INSERIR CLIENTE <i class="fa fa-user" aria-hidden="true"></i></button> 
                 </div>
 
-                <h5><i class="fa fa-money"></i> PAGAMENTO</h5>
+                <h5><i class="fa fa-user" aria-hidden="true"></i> CLIENTE</h5>
+                <p>Nenhum cliente selecionado</p>
+
+
+                <h5><i class="fa fa-user" aria-hidden="true"></i> VENDEDOR</h5>
+                <p>Nenhum vendedor selecionado</p>
+
+
+                <h5><i class="fa fa-money" aria-hidden="true"></i> PAGAMENTO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> CRÉDITO</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> DÉBITO</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> DINHEIRO</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> PIX</button>
+                <button id="btn-bg-vender-new-venda-page">CRÉDITO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">DÉBITO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">DINHEIRO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">PIX <i class="fa fa-money" aria-hidden="true"></i></button>
 
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> PRÊMIO</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> TROCA</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> FIADO</button>
-                <button id="btn-bg-vender-new-venda-page"><i class="fa fa-money"></i> VOUCHER</button>
+                <button id="btn-bg-vender-new-venda-page">PRÊMIO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">TROCA <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">FIADO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button id="btn-bg-vender-new-venda-page">VOUCHER <i class="fa fa-money" aria-hidden="true"></i></button>
                 </div>
 
-                <h5><i class="fa fa-sticky-note"></i> OBSERVAÇÕES</h5>
+                <h5><i class="fa fa-sticky-note" aria-hidden="true"></i> OBSERVAÇÕES</h5>
                 <textarea></textarea>
             </div>
         </div>

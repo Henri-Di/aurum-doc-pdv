@@ -1,0 +1,284 @@
+/* ===== Reset básico para todos os elementos ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Estilos do Body ===== */
+body {
+    background-color: #ffcc00;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== Container principal ===== */
+.container {
+    width: 100vw;
+    max-width: 1200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Título principal (h2) ===== */
+h2 {
+    font-family: "Baumans", system-ui;
+    font-weight: 600;
+    font-size: 5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    padding: 1rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* ===== Subtítulo (h6) ===== */
+h6 {
+    font-family: "Baumans", system-ui;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: -0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    text-align: center;
+}
+
+/* ===== Ícone (fa-child) ===== */
+.fa-child {
+    color: #000000;
+    font-size: 2rem;
+}
+
+/* ===== Linha (row) com efeito de vidro ===== */
+.row {
+    background-color:#f0f0f5;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    padding: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    justify-content: space-around;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Coluna (col) para organizar elementos lado a lado ===== */
+.col {
+    flex: 1 1 45%;
+    min-width: 300px;
+    max-width: 700px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+/* ===== Coluna larga ===== */
+.col-wide {
+    flex: 2; /* Aumenta o espaço ocupado */
+    max-width: 850px; /* Define um limite maior para largura */
+}
+
+/* ===== Coluna estreita ===== */
+.col-narrow {
+    flex: 1; /* Ocupa menos espaço */
+    max-width: 300px; /* Define um limite menor para largura */
+}
+
+.button-container button {
+    width: 100%; /* Faz com que os botões ocupem 100% da largura disponível */
+    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura do botão */
+    margin-bottom: 10px; /* Adiciona um espaço entre os botões */
+}
+
+/* ===== Botão (btn-bg-vender-new-venda-page) ===== */
+#btn-bg-vender-new-venda-page-search {
+    width: 125px; /* Define uma largura fixa para o botão */
+    padding: 0.55rem ;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+/* Efeito de hover no botão */
+#btn-bg-vender-new-venda-page-search:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+#receitas, #despesas {
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    margin-top: 2rem;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+/* ===== Telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: -0.5rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .fa-child {
+        font-size: 1.5rem;
+    }
+
+    .row {
+        padding: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        max-width: unset;
+        height: auto;
+    }
+}
+
+/* ===== Telas pequenas - Smartphones (entre 480px e 767px) ===== */
+@media (max-width: 767px) {
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+
+    .fa-child {
+        font-size: 2rem;
+    }
+
+    .row {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        max-width: unset;
+        height: auto;
+    }
+}
+
+/* ===== Telas médias - Tablets (entre 768px e 1024px) ===== */
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 4rem;
+        margin-bottom: -0.5rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+
+    .fa-child {
+        font-size: 2.5rem;
+    }
+
+    .row {
+        padding: 2.5rem;
+        gap: 1.5rem;
+    }
+
+    .col {
+        flex: 1 1 48%;
+        height: auto;
+    }
+}
+
+/* ===== Telas de alta resolução (175% ou superior) ===== */
+@media (min-resolution: 168dpi) and (min-width: 768px) {
+    body {
+        font-size: 1.2rem; /* Ajuste do tamanho geral */
+        height: auto; /* Permite que a altura seja dinâmica */
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column; /* Alinha os itens um abaixo do outro */
+        align-items: center; /* Centraliza os itens no eixo horizontal */
+        padding: 4rem; /* Adiciona espaçamento interno */
+        gap: 2rem; /* Espaço entre os itens */
+    }
+
+    .col {
+        flex: none; /* Remove comportamento flexível automático */
+        width: 100%; /* Ocupa 100% da largura disponível */
+        max-width: 600px; /* Define uma largura máxima para centralizar os itens */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+        border-radius: 8px; /* Borda mais suave */
+    }
+
+    h2 {
+        font-size: 5.5rem; /* Ajusta o tamanho do título */
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 1.2rem; /* Ajusta o subtítulo */
+        text-align: center;
+    }
+}
