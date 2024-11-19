@@ -1,0 +1,141 @@
+/* ===== Reset básico para todos os elementos ===== */
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    box-sizing: border-box; /* Define o modelo de box como border-box para todos os elementos */
+}
+
+/* ===== Estilos do Body ===== */
+body {
+    background-color: #ffcc00; /* Define a cor de fundo como amarelo */
+    height: 100vh; /* Define a altura da viewport para ocupar 100% da altura da tela */
+    box-sizing: border-box; /* Modelo de box como border-box para garantir que padding e border sejam incluídos na largura e altura do elemento */
+}
+
+/* ===== Container principal ===== */
+.container {
+    width: 100vw; /* Define a largura como 100% da viewport */
+    max-width: 1200px; /* Limita a largura máxima para uma visualização mais legível em telas grandes */
+    display: flex; /* Configura como flex container para alinhar itens */
+    flex-direction: column; /* Coloca os itens em uma coluna vertical */
+    justify-content: center; /* Alinha verticalmente os itens no centro do container */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    height: 100vh; /* Ocupa 100% da altura da viewport, centralizando verticalmente */
+}
+
+/* ===== Título principal (h2) ===== */
+h2 {
+    font-family: "Baumans", system-ui; /* Define a família de fontes com estilo moderno */
+    font-weight: 600; /* Define a espessura da fonte */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    font-size: 7rem; /* Tamanho grande para destaque, ideal para desktop */
+    color: #000000; /* Define a cor do texto como preto */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: -1rem; /* Ajusta o espaço inferior para aproximar do próximo elemento */
+    cursor: pointer; /* Transforma o ponteiro do mouse em "mãozinha" ao passar sobre o texto */
+}
+
+/* ===== Subtítulo (h6) ===== */
+h6 {
+    font-family: "Baumans", system-ui; /* Fonte para subtítulo semelhante ao título */
+    font-weight: 600; /* Define a espessura da fonte */
+    font-style: normal; /* Define o estilo da fonte como normal */
+    font-size: 1.5rem; /* Tamanho da fonte menor que o h2 */
+    cursor: pointer; /* Aplica o ponteiro "mãozinha" ao passar sobre o subtítulo */
+    padding-bottom: 0.5rem; /* Adiciona espaço inferior para distância visual entre o texto e a borda */
+    border-bottom: 2px solid #000000; /* Adiciona uma linha inferior preta para destaque */
+    color: #000000; /* Define a cor do texto como preto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* ===== Ícone (fa-child) ===== */
+.fa-child {
+    color: #000000; /* Define a cor do ícone como preto */
+    font-size: 2.5rem; /* Define um tamanho maior para destaque */
+}
+
+/* ===== Botão com hover (btn-acessar-aurum-bg) ===== */
+#btn-acessar-aurum-bg {
+    width: 16rem; /* Largura fixa para o botão em telas grandes */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte sem serifa para aparência mais limpa */
+    font-weight: 700; /* Define a espessura da fonte */
+    font-style: normal; /* Estilo da fonte normal */
+    padding: 0.5rem; /* Adiciona espaço interno para altura do botão */
+    margin-top: 1rem; /* Espaço superior para separação do botão em relação aos elementos acima */
+    background-color: transparent; /* Fundo transparente no estado normal */
+    border-radius: 5px; /* Arredonda os cantos do botão */
+    border: 2px solid #000000; /* Define uma borda preta */
+    transition: background-color 0.7s, color 0.7s ease, transform 0.7s ease; /* Animação de transição suave para cor e transformação */
+}
+
+/* ===== Efeito hover no botão ===== */
+#btn-acessar-aurum-bg:hover {
+    background-color: #000000; /* Fundo preto ao passar o mouse */
+    color: #ffcc00; /* Cor do texto muda para amarelo ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o botão ligeiramente no hover */
+}
+
+/* ===== Telas médias - Tablets (entre 768px e 1024px) ===== */
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 5rem; /* Diminui o tamanho do título para ajuste em telas menores */
+        margin-bottom: -0.5rem; /* Ajuste menor de margem inferior para alinhamento */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Reduz o tamanho da fonte do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 2.5rem; /* Mantém o tamanho do ícone para legibilidade */
+    }
+
+    #btn-acessar-aurum-bg {
+        width: 16rem; /* Mantém a largura do botão em tablets */
+        padding: 0.5rem; /* Mantém o espaçamento interno */
+    }
+}
+
+/* ===== Telas pequenas - Smartphones (entre 480px e 767px) ===== */
+@media (max-width: 767px) {
+    h2 {
+        font-size: 3.5rem; /* Reduz o tamanho do título para caber em telas pequenas */
+        margin-bottom: 0rem; /* Remove margem inferior para melhor ajuste visual */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Mantém o subtítulo legível em smartphones */
+    }
+
+    .fa-child {
+        font-size: 2rem; /* Diminui o tamanho do ícone para proporção */
+    }
+
+    #btn-acessar-aurum-bg {
+        width: 14rem; /* Reduz a largura do botão para caber melhor */
+        padding: 0.4rem; /* Diminui o espaçamento interno para ajustar a altura */
+    }
+}
+
+/* ===== Telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 5rem; /* Tamanho menor para caber em telas muito pequenas */
+        margin-bottom: 0rem; /* Remove a margem para economizar espaço vertical */
+    }
+
+    h6 {
+        font-size: 1.5rem; /* Ajuste no tamanho do subtítulo */
+        padding-bottom: 0.25rem; /* Reduz o preenchimento inferior do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 1.5rem; /* Reduz o ícone para caber melhor em telas compactas */
+    }
+
+    #btn-acessar-aurum-bg {
+        width: 15rem; /* Ajusta a largura do botão */
+        padding: 0.35rem; /* Diminui o preenchimento para melhorar a altura */
+        margin-top: 0; /* Remove margem superior para ajuste visual */
+    }
+}

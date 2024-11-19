@@ -1,0 +1,515 @@
+/* ===== Reset básico para todos os elementos ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== Estilos do Body ===== */
+body {
+    background-color: #ffcc00;
+    box-sizing: border-box;
+    font-family: "Barlow Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== Container principal ===== */
+.container {
+    width: 100vw;
+    max-width: 1200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Título principal (h2) ===== */
+h2 {
+    font-family: "Baumans", system-ui;
+    font-weight: 600;
+    font-size: 5rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* ===== Subtítulo (h6) ===== */
+h6 {
+    font-family: "Baumans", system-ui;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: -0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    text-align: center;
+}
+
+/* ===== Ícone (fa-child) ===== */
+.fa-child {
+    color: #000000;
+    font-size: 2rem;
+}
+
+/* ===== Linha (row) com efeito de vidro ===== */
+.row {
+    background-color:#f0f0f5;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 100%;
+    padding: 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    justify-content: space-around;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Coluna (col) para organizar elementos lado a lado ===== */
+.col {
+    flex: 1 1 45%;
+    min-width: 300px;
+    max-width: 700px;
+    height: auto;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+/* ===== Coluna larga ===== */
+.col-wide {
+    flex: 2; /* Aumenta o espaço ocupado */
+    max-width: 850px; /* Define um limite maior para largura */
+}
+
+/* ===== Coluna estreita ===== */
+.col-narrow {
+    flex: 1; /* Ocupa menos espaço */
+    max-width: 300px; /* Define um limite menor para largura */
+}
+
+h5 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #000000;
+    color: #000000;
+    padding: 1rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* ===== Tabela (table) ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: "Barlow Condensed", sans-serif;
+}
+   
+/* ===== Linhas da tabela (tr) ===== */
+tr {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+    
+/* ===== Células da tabela (td) ===== */
+td {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1rem;
+    color: #333333;
+    cursor: pointer;
+    border-right: 1px solid #e0e0e0;
+}
+    
+td:last-child {
+    border-right: none;
+}
+
+/* ===== Cabeçalho da tabela (primeira linha) ===== */
+tr:first-child td {
+    font-weight: 600;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.1rem;
+    border-right: 1px solid #ffffff;
+}
+
+#total-venda-new-venda-page{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    background-color: #000000;
+}
+
+/* ===== Botão (btn-bg-vender-new-venda-page) ===== */
+#btn-bg-vender-new-venda-page {
+    width: 160px; /* Define uma largura fixa para o botão */
+    padding: 0.55rem ;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    text-align: center;
+}
+
+/* Efeito de hover no botão */
+#btn-bg-vender-new-venda-page:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* ===== Botão (btn-bg-vender-new-venda-page) ===== */
+#btn-bg-vender-new-venda-page-search {
+    width: 80px; /* Define uma largura fixa para o botão */
+    padding: 0.55rem ;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+/* Efeito de hover no botão */
+#btn-bg-vender-new-venda-page-search:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+#btn-bg-ver-mais-venda-page{
+    width: 80px; /* Define uma largura fixa para o botão */
+    padding: 0.55rem ;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    text-align: center;
+}
+
+/* Efeito de hover no botão */
+#btn-bg-ver-mais-new-venda-page:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+#btn-bg-vender-new-venda-page-search-form{
+    width: 100px; /* Define uma largura fixa para o botão */
+    padding: 0.55rem ;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    display: inline-block;
+    align-self: flex-end;
+    text-align: center;
+}
+
+/* Efeito de hover no botão */
+#btn-bg-vender-new-venda-page-search-form:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* ===== Estilos para o textarea ===== */
+textarea {
+    width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    padding: 1rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    background-color: #ffffff;
+    resize: vertical;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea:focus {
+    border-color: #333333;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+/* ===== Responsividade do botão para tablets e smartphones ===== */
+@media (max-width: 767px) {
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
+        width: 100%;
+        justify-items: center;
+    }
+
+    #btn-bg-vender-new-venda-page {
+        font-size: 0.85rem;
+        padding: 0.6rem 1rem;
+        width: auto;
+        align-self: center;
+    }
+
+    textarea {
+        min-height: 80px;
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .button-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
+        width: 100%;
+        justify-items: center;
+    }
+
+    #btn-bg-vender-new-venda-page {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        width: auto;
+        align-self: center;
+    }
+
+    #btn-bg-vender-new-venda-page-search {
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        width: auto;
+        align-self: center;
+    }
+
+    #btn-bg-vender-new-venda-page-search-form{
+        font-size: 0.8rem;
+        padding: 0.5rem 0.8rem;
+        width: auto;
+        align-self: center;
+    }
+
+    textarea {
+        min-height: 60px;
+        font-size: 0.85rem;
+        padding: 0.7rem;
+    }
+}
+
+/* ===== Telas médias - Tablets (entre 768px e 1024px) ===== */
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 4rem;
+        margin-bottom: -0.5rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+
+    .fa-child {
+        font-size: 2.5rem;
+    }
+
+    .row {
+        padding: 2.5rem;
+        gap: 1.5rem;
+    }
+
+    .col {
+        flex: 1 1 48%;
+        height: auto;
+    }
+
+    td {
+        font-size: 0.7rem;
+        padding: 0.8rem;
+    }
+}
+
+/* ===== Telas pequenas - Smartphones (entre 480px e 767px) ===== */
+@media (max-width: 767px) {
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 0rem;
+    }
+
+    h6 {
+        font-size: 1.25rem;
+    }
+
+    .fa-child {
+        font-size: 2rem;
+    }
+
+    .row {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        max-width: unset;
+        height: auto;
+    }
+
+    td {
+        font-size: 0.85rem;
+        padding: 0.6rem;
+    }
+}
+
+/* ===== Telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: -0.5rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        padding-bottom: 0.25rem;
+    }
+
+    .fa-child {
+        font-size: 1.5rem;
+    }
+
+    .row {
+        padding: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        max-width: unset;
+        height: auto;
+    }
+
+    td {
+        font-size: 0.75rem;
+        padding: 0.5rem;
+    }
+}
+
+/* ===== Telas de alta resolução (175% ou superior) ===== */
+@media (min-resolution: 168dpi) and (min-width: 768px) {
+    body {
+        font-size: 1.2rem; /* Ajuste do tamanho geral */
+        height: auto; /* Permite que a altura seja dinâmica */
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column; /* Alinha os itens um abaixo do outro */
+        align-items: center; /* Centraliza os itens no eixo horizontal */
+        padding: 4rem; /* Adiciona espaçamento interno */
+        gap: 2rem; /* Espaço entre os itens */
+    }
+
+    .col {
+        flex: none; /* Remove comportamento flexível automático */
+        width: 100%; /* Ocupa 100% da largura disponível */
+        max-width: 600px; /* Define uma largura máxima para centralizar os itens */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra consistente */
+        border-radius: 8px; /* Borda mais suave */
+    }
+
+    h2 {
+        font-size: 5.5rem; /* Ajusta o tamanho do título */
+        text-align: center;
+    }
+
+    h6 {
+        font-size: 1.2rem; /* Ajusta o subtítulo */
+        text-align: center;
+    }
+
+    table {
+        max-width: 100%; /* Garante que a tabela não exceda a largura do container */
+        overflow-x: auto; /* Permite rolagem horizontal */
+    }
+
+    td {
+        font-size: 1.1rem; /* Melhora a legibilidade da tabela */
+        padding: 1.2rem; /* Adiciona espaçamento */
+    }
+
+    #btn-bg-vender-new-venda-page {
+        width: 100%;
+        font-size: 1.1rem; /* Ajusta o tamanho do botão */
+        padding: 0.7rem 1.7rem; /* Torna o botão maior */
+    }
+}
+
+
