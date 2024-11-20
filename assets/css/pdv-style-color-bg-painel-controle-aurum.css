@@ -1,304 +1,320 @@
 /* ===== Reset básico para todos os elementos ===== */
+/* O seletor '*' aplica o estilo a todos os elementos da página, removendo margens e paddings padrões */
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Faz com que padding e bordas sejam incluídos na largura e altura dos elementos */
 }
 
 /* ===== Estilos do Body ===== */
+/* Define o fundo da página, a fonte e alinha o conteúdo centralmente usando flexbox */
 body {
-    background-color: #ffcc00;
-    box-sizing: border-box;
-    font-family: "Barlow Condensed", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    box-sizing: border-box; /* Define o box model para todos os elementos */
+    font-family: "Barlow Condensed", sans-serif; /* Define a fonte usada em todo o site */
+    display: flex; /* Ativa o modelo de layout flexbox */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
 }
 
 /* ===== Container principal ===== */
+/* Container flexível que centraliza o conteúdo e define o layout principal da página */
 .container {
-    width: 100vw;
-    max-width: 1200px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100vw; /* A largura ocupa 100% da largura da tela */
+    max-width: 1200px; /* Define um limite máximo de largura */
+    padding: 1rem; /* Espaçamento interno */
+    display: flex; /* Utiliza flexbox para o layout */
+    flex-direction: column; /* Organiza os itens na vertical */
+    align-items: center; /* Centraliza os itens na horizontal */
+    justify-content: center; /* Centraliza os itens na vertical */
 }
 
 /* ===== Título principal (h2) ===== */
+/* Estiliza o título principal com uma fonte personalizada, tamanho grande e alinhamento centralizado */
 h2 {
-    font-family: "Baumans", system-ui;
-    font-weight: 600;
-    font-size: 5rem;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 0;
+    font-family: "Baumans", system-ui; /* Fonte personalizada para o título */
+    font-weight: 600; /* Peso da fonte em negrito */
+    font-size: 5rem; /* Define o tamanho do título */
+    color: #000000; /* Cor preta para o título */
+    text-align: center; /* Alinha o título ao centro */
+    margin-bottom: 0; /* Remove a margem inferior */
 }
 
+/* ===== Título secundário (h5) ===== */
+/* Estiliza o título secundário (h5) com fundo e borda arredondada */
 h5 {
-    background-color: #e0e0eb;
-    border-radius: 5px;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    color: #000000;
-    padding: 1rem;
-    text-align: left;
-    cursor: pointer;
+    background-color: #e0e0eb; /* Cor de fundo do título secundário */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-weight: 500; /* Peso da fonte */
+    color: #000000; /* Cor do texto */
+    padding: 1rem; /* Espaçamento interno */
+    text-align: left; /* Alinha o texto à esquerda */
+    cursor: pointer; /* Mostra que o título é clicável */
 }
 
 /* ===== Subtítulo (h6) ===== */
+/* Estiliza o subtítulo com uma linha de fundo e o efeito de hover */
 h6 {
-    font-family: "Baumans", system-ui;
-    font-weight: 600;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: -0.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #000000;
-    color: #000000;
-    text-align: center;
+    font-family: "Baumans", system-ui; /* Fonte personalizada */
+    font-weight: 600; /* Peso em negrito */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro ao passar sobre o subtítulo */
+    margin-top: -0.5rem; /* Ajuste de margem superior */
+    padding-bottom: 0.5rem; /* Espaçamento inferior */
+    border-bottom: 2px solid #000000; /* Linha de 2px na parte inferior */
+    color: #000000; /* Cor preta para o texto */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 /* ===== Ícone (fa-child) ===== */
+/* Estiliza o ícone com uma cor e tamanho específicos */
 .fa-child {
-    color: #000000;
-    font-size: 2rem;
+    color: #000000; /* Cor preta para o ícone */
+    font-size: 2rem; /* Define o tamanho do ícone */
 }
 
 /* ===== Linha (row) com efeito de vidro ===== */
+/* Estiliza o container de linhas com efeito de fundo borrado e bordas arredondadas */
 .row {
-    background-color:#f0f0f5;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    width: 100%;
-    padding: 3.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    justify-content: space-around;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f0f0f5; /* Cor de fundo suave */
+    backdrop-filter: blur(15px); /* Aplica o efeito de desfoque no fundo */
+    -webkit-backdrop-filter: blur(15px); /* Suporte para browsers WebKit */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 100%; /* Largura total da linha */
+    padding: 3.5rem; /* Espaçamento interno */
+    display: flex; /* Layout flexbox */
+    flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha */
+    gap: 2rem; /* Espaçamento entre os itens */
+    margin-top: 1rem; /* Margem superior */
+    margin-bottom: 4rem; /* Margem inferior */
+    justify-content: space-around; /* Distribui os itens com espaçamento igual */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
 }
 
 /* ===== Coluna (col) para organizar elementos lado a lado ===== */
+/* Estiliza as colunas dentro da linha */
 .col {
-    flex: 1 1 45%;
-    min-width: 300px;
-    max-width: 700px;
-    height: auto;
-    background-color: #ffffff;
-    padding: 1.5rem;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    align-items: center;
+    flex: 1 1 45%; /* Flexível, ocupa 45% do espaço da linha */
+    min-width: 300px; /* Largura mínima de 300px */
+    max-width: 700px; /* Largura máxima de 700px */
+    height: auto; /* Altura ajustada automaticamente */
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 1.5rem; /* Espaçamento interno */
+    border: 1px solid #000000; /* Borda preta */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    border-radius: 5px; /* Bordas arredondadas */
+    align-items: center; /* Centraliza o conteúdo na coluna */
 }
 
-
 /* ===== Coluna larga ===== */
+/* Define uma coluna que ocupa mais espaço horizontalmente */
 .col-wide {
-    flex: 2; /* Aumenta o espaço ocupado */
-    max-width: 850px; /* Define um limite maior para largura */
+    flex: 2; /* Ocupa o dobro de espaço */
+    max-width: 850px; /* Largura máxima de 850px */
 }
 
 /* ===== Coluna estreita ===== */
+/* Define uma coluna que ocupa menos espaço horizontalmente */
 .col-narrow {
-    flex: 1; /* Ocupa menos espaço */
-    max-width: 300px; /* Define um limite menor para largura */
+    flex: 1; /* Ocupa o mesmo espaço que as colunas normais */
+    max-width: 300px; /* Largura máxima de 300px */
 }
 
+/* ===== Estilo para botões dentro do container de botões ===== */
+/* Ajusta os botões para que ocupem 100% da largura disponível e tenham espaçamento entre eles */
 .button-container button {
     width: 100%; /* Faz com que os botões ocupem 100% da largura disponível */
-    box-sizing: border-box; /* Garante que o padding e a borda sejam incluídos na largura do botão */
-    margin-bottom: 10px; /* Adiciona um espaço entre os botões */
+    box-sizing: border-box; /* Garante que padding e bordas sejam incluídos na largura */
+    margin-bottom: 10px; /* Adiciona espaço entre os botões */
 }
 
-/* ===== Botão (btn-bg-vender-new-venda-page) ===== */
+/* ===== Estilos para o botão de "vender" na nova página de venda ===== */
 #btn-bg-vender-new-venda-page-search {
     width: 125px; /* Define uma largura fixa para o botão */
-    padding: 0.55rem ;
-    background-color: transparent;
-    color: #000000;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    position: relative;
-    display: inline-block;
-    align-self: flex-end;
-    text-align: left;
-    text-wrap: nowrap;
+    padding: 0.55rem; /* Espaçamento interno do botão */
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #000000; /* Cor do texto */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte do texto */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    border: 1px solid #000000; /* Borda preta ao redor do botão */
+    border-radius: 3px; /* Arredondamento das bordas */
+    cursor: pointer; /* Muda o cursor para uma mão quando sobre o botão */
+    margin-top: 0.5rem; /* Margem superior */
+    margin-left: 0.5rem; /* Margem à esquerda */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transições suaves ao interagir com o botão */
+    position: relative; /* Posicionamento relativo */
+    display: inline-block; /* Exibição em linha */
+    align-self: flex-end; /* Alinha o botão ao final do eixo flex */
+    text-align: left; /* Alinha o texto à esquerda */
+    text-wrap: nowrap; /* Impede o quebra de linha do texto */
 }
 
-/* Efeito de hover no botão */
+/* Efeito de hover no botão (quando o mouse passa por cima) */
 #btn-bg-vender-new-venda-page-search:hover {
-    background-color: #333333;
-    color: #ffffff;
-    transform: scale(1.05);
+    background-color: #333333; /* Muda o fundo para uma cor escura */
+    color: #ffffff; /* Muda a cor do texto para branco */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão */
 }
 
+/* ===== Estilos para os cards de receitas, despesas, vendas e departamentos ===== */
 #receitas, #despesas, #vendas, #departamentos {
-    background-color: #ffffff;
-    border-radius: 8px;
-    border: 1px solid #000000;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    padding: 30px;
-    margin-top: 2rem;
-    max-width: 600px;
-    width: 100%;
-    cursor: pointer;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: #ffffff; /* Fundo branco para os cards */
+    border-radius: 8px; /* Bordas arredondadas */
+    border: 1px solid #000000; /* Borda preta */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+    padding: 30px; /* Espaçamento interno */
+    margin-top: 2rem; /* Margem superior */
+    max-width: 600px; /* Largura máxima do card */
+    width: 100%; /* Largura total disponível */
+    cursor: pointer; /* Muda o cursor para uma mão quando o mouse passa por cima */
+    text-align: center; /* Alinha o conteúdo do card ao centro */
+    display: flex; /* Flexbox para organizar o conteúdo */
+    flex-direction: column; /* Coloca os elementos na vertical */
+    align-items: center; /* Alinha os elementos ao centro */
 }
 
+/* ===== Estilos para os gráficos (salesChart) ===== */
 #salesChartReceitas, #salesChartDespesas,
 #salesChartVendas, #salesChartDepartamentos {
-    width: 100%;
-    height: auto;
-    max-height:200px;
-    transition: transform 0.7s ease;
+    width: 100%; /* Largura total disponível para os gráficos */
+    height: auto; /* Altura automática */
+    max-height:200px; /* Limite máximo de altura */
+    transition: transform 0.7s ease; /* Transição suave ao passar o mouse sobre os gráficos */
 }
 
+/* Efeito de hover nos gráficos (quando o mouse passa por cima) */
 #salesChartReceitas:hover, #salesChartDespesas:hover,
 #salesChartVendas:hover, #salesChartDepartamentos:hover {
-    transform: scale(1.05);
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do gráfico */
 }
 
+/* ===== Estilos para o título (h1) dos cards ===== */
 h1 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: #000000;
+    font-size: 1.5rem; /* Tamanho da fonte do título */
+    margin-bottom: 20px; /* Margem inferior */
+    color: #000000; /* Cor do texto */
 }
 
+/* ===== Estilos para o canvas (gráfico) ===== */
 canvas {
-    max-width: 100%;
+    max-width: 100%; /* Garante que o gráfico ocupe a largura máxima disponível */
 }
-
-
 
 /* ===== Telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
 @media (max-width: 480px) {
     h2 {
-        font-size: 2.5rem;
-        margin-bottom: -0.5rem;
+        font-size: 2.5rem; /* Reduz o tamanho do título para telas pequenas */
+        margin-bottom: -0.5rem; /* Ajusta a margem inferior */
     }
 
     h6 {
-        font-size: 1rem;
-        margin-top: 0.5rem;
-        padding-bottom: 0.25rem;
+        font-size: 1rem; /* Ajusta o tamanho do subtítulo */
+        margin-top: 0.5rem; /* Ajusta a margem superior */
+        padding-bottom: 0.25rem; /* Ajusta o espaçamento inferior */
     }
 
     .fa-child {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Reduz o tamanho do ícone */
     }
 
     .row {
-        padding: 1.5rem;
-        gap: 0.5rem;
+        padding: 1.5rem; /* Reduz o preenchimento nos cards */
+        gap: 0.5rem; /* Diminui o espaçamento entre os itens */
     }
 
     .col {
-        flex: 1 1 100%;
-        max-width: unset;
-        height: auto;
+        flex: 1 1 100%; /* Faz com que as colunas ocupem 100% da largura disponível */
+        max-width: unset; /* Remove a largura máxima definida */
+        height: auto; /* Altura automática */
     }
 }
 
 /* ===== Telas pequenas - Smartphones (entre 480px e 767px) ===== */
 @media (max-width: 767px) {
     h2 {
-        font-size: 3rem;
-        margin-bottom: 0rem;
+        font-size: 3rem; /* Ajusta o tamanho do título para telas pequenas */
+        margin-bottom: 0rem; /* Remove a margem inferior */
     }
 
     h6 {
-        font-size: 1.25rem;
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
     }
 
     .fa-child {
-        font-size: 2rem;
+        font-size: 2rem; /* Ajusta o tamanho do ícone */
     }
 
     .row {
-        padding: 2rem;
-        gap: 1rem;
+        padding: 2rem; /* Aumenta o preenchimento dos cards */
+        gap: 1rem; /* Aumenta o espaçamento entre os itens */
     }
 
     .col {
-        flex: 1 1 100%;
-        max-width: unset;
-        height: auto;
+        flex: 1 1 100%; /* Faz com que as colunas ocupem 100% da largura disponível */
+        max-width: unset; /* Remove a largura máxima definida */
+        height: auto; /* Altura automática */
     }
 }
 
 /* ===== Telas médias - Tablets (entre 768px e 1024px) ===== */
 @media (max-width: 1024px) {
     h2 {
-        font-size: 4rem;
-        margin-bottom: -0.5rem;
+        font-size: 4rem; /* Ajusta o tamanho do título para tablets */
+        margin-bottom: -0.5rem; /* Ajusta a margem inferior */
     }
 
     h6 {
-        font-size: 1.25rem;
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
     }
 
     .fa-child {
-        font-size: 2.5rem;
+        font-size: 2.5rem; /* Ajusta o tamanho do ícone */
     }
 
     .row {
-        padding: 2.5rem;
-        gap: 1.5rem;
+        padding: 2.5rem; /* Aumenta o preenchimento dos cards */
+        gap: 1.5rem; /* Aumenta o espaçamento entre os itens */
     }
 
     .col {
-        flex: 1 1 48%;
-        height: auto;
+        flex: 1 1 48%; /* Faz as colunas ocuparem cerca de metade da largura */
+        height: auto; /* Altura automática */
     }
 }
 
 /* ===== Telas de alta resolução (175% ou superior) ===== */
 @media (min-resolution: 168dpi) and (min-width: 768px) {
     body {
-        font-size: 1.2rem; /* Ajuste do tamanho geral */
+        font-size: 1.2rem; /* Ajuste do tamanho geral da fonte */
         height: auto; /* Permite que a altura seja dinâmica */
     }
 
     .row {
-        display: flex;
-        flex-direction: column; /* Alinha os itens um abaixo do outro */
-        align-items: center; /* Centraliza os itens no eixo horizontal */
-        padding: 4rem; /* Adiciona espaçamento interno */
-        gap: 2rem; /* Espaço entre os itens */
+        display: flex; /* Flexbox para a organização */
+        flex-direction: column; /* Organiza os itens em coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        padding: 4rem; /* Aumenta o espaçamento interno */
+        gap: 2rem; /* Aumenta o espaçamento entre os itens */
     }
 
     .col {
-        flex: none; /* Remove comportamento flexível automático */
-        width: 100%; /* Ocupa 100% da largura disponível */
-        max-width: 600px; /* Define uma largura máxima para centralizar os itens */
+        flex: none; /* Remove comportamento flexível */
+        width: 100%; /* Faz a coluna ocupar toda a largura disponível */
+        max-width: 600px; /* Limita a largura para centralizar os itens */
         box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra consistente */
         border-radius: 8px; /* Borda mais suave */
     }
 
     h2 {
-        font-size: 5.5rem; /* Ajusta o tamanho do título */
-        text-align: center;
+        font-size: 5.5rem; /* Ajusta o tamanho do título para telas grandes */
+        text-align: center; /* Centraliza o título */
     }
 
     h6 {
-        font-size: 1.2rem; /* Ajusta o subtítulo */
-        text-align: center;
+        font-size: 1.2rem; /* Ajusta o subtítulo para telas grandes */
+        text-align: center; /* Centraliza o subtítulo */
     }
 }

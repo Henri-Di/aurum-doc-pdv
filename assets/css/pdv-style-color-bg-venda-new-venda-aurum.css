@@ -1,175 +1,177 @@
 /* ===== Reset básico para todos os elementos ===== */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    box-sizing: border-box; /* Inclui bordas e preenchimentos no cálculo de largura e altura */
 }
 
 /* ===== Estilos do Body ===== */
 body {
-    background-color: #ffcc00;
-    box-sizing: border-box;
-    font-family: "Barlow Condensed", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #ffcc00; /* Cor de fundo amarela */
+    box-sizing: border-box; /* Inclui bordas e preenchimentos no cálculo de largura e altura */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte escolhida */
+    display: flex; /* Usando flexbox para o layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
 }
 
 /* ===== Container principal ===== */
 .container {
-    width: 100vw;
-    max-width: 1200px;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 100vw; /* Largura total da tela */
+    max-width: 1200px; /* Limite máximo de largura */
+    padding: 1rem; /* Espaçamento interno */
+    display: flex; /* Usando flexbox para o layout */
+    flex-direction: column; /* Organiza os elementos de forma vertical */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
 }
 
 /* ===== Título principal (h2) ===== */
 h2 {
-    font-family: "Baumans", system-ui;
-    font-weight: 600;
-    font-size: 5rem;
-    color: #000000;
-    text-align: center;
-    margin-bottom: 0;
+    font-family: "Baumans", system-ui; /* Fonte do título */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 5rem; /* Tamanho da fonte */
+    color: #000000; /* Cor do título */
+    text-align: center; /* Alinha o título ao centro */
+    margin-bottom: 0; /* Remove margem inferior */
 }
 
 /* ===== Subtítulo (h6) ===== */
 h6 {
-    font-family: "Baumans", system-ui;
-    font-weight: 600;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: -0.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #000000;
-    color: #000000;
-    text-align: center;
+    font-family: "Baumans", system-ui; /* Fonte do subtítulo */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar interação */
+    margin-top: -0.5rem; /* Ajusta a margem superior */
+    padding-bottom: 0.5rem; /* Espaçamento inferior */
+    border-bottom: 2px solid #000000; /* Linha inferior preta */
+    color: #000000; /* Cor do subtítulo */
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 /* ===== Ícone (fa-child) ===== */
 .fa-child {
-    color: #000000;
-    font-size: 2rem;
+    color: #000000; /* Cor do ícone */
+    font-size: 2rem; /* Tamanho do ícone */
 }
 
 /* ===== Linha (row) com efeito de vidro ===== */
 .row {
-    background-color:#f0f0f5;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    width: 100%;
-    padding: 3.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    justify-content: space-around;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #f0f0f5; /* Cor de fundo da linha */
+    backdrop-filter: blur(15px); /* Desfoque no fundo */
+    -webkit-backdrop-filter: blur(15px); /* Suporte para navegadores webkit */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 100%; /* Largura total */
+    padding: 3.5rem; /* Espaçamento interno */
+    display: flex; /* Usando flexbox para o layout */
+    flex-wrap: wrap; /* Permite quebra de linha quando necessário */
+    gap: 2rem; /* Espaço entre os itens */
+    margin-top: 1rem; /* Margem superior */
+    margin-bottom: 4rem; /* Margem inferior */
+    justify-content: space-around; /* Distribui os itens com espaçamento */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave */
 }
 
 /* ===== Coluna (col) para organizar elementos lado a lado ===== */
 .col {
-    flex: 1 1 45%;
-    min-width: 300px;
-    max-width: 700px;
-    height: auto;
-    background-color: #ffffff;
-    padding: 1.5rem;
-    border: 1px solid #000000;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    align-items: center;
+    flex: 1 1 45%; /* Flexível, com 45% de largura */
+    min-width: 300px; /* Largura mínima */
+    max-width: 700px; /* Largura máxima */
+    height: auto; /* Altura automática */
+    background-color: #ffffff; /* Cor de fundo branca */
+    padding: 1.5rem; /* Espaçamento interno */
+    border: 1px solid #000000; /* Borda preta */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    border-radius: 5px; /* Bordas arredondadas */
+    align-items: center; /* Centraliza os itens */
 }
-
 
 /* ===== Coluna larga ===== */
 .col-wide {
-    flex: 2; /* Aumenta o espaço ocupado */
-    max-width: 850px; /* Define um limite maior para largura */
+    flex: 2; /* Ocupa 2x o espaço da coluna normal */
+    max-width: 850px; /* Largura máxima maior */
 }
 
 /* ===== Coluna estreita ===== */
 .col-narrow {
-    flex: 1; /* Ocupa menos espaço */
-    max-width: 300px; /* Define um limite menor para largura */
+    flex: 1; /* Ocupa o mesmo espaço da coluna normal */
+    max-width: 300px; /* Largura máxima menor */
 }
 
+/* ===== Título dentro das colunas (h5) ===== */
 h5 {
-    background-color: #e0e0eb;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    border-radius: 5px;
-    color: #000000;
-    padding: 1rem;
-    text-align: left;
-    cursor: pointer;
+    background-color: #e0e0eb; /* Cor de fundo cinza claro */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte escolhida */
+    font-weight: 500; /* Peso da fonte */
+    border-radius: 5px; /* Bordas arredondadas */
+    color: #000000; /* Cor do texto */
+    padding: 1rem; /* Espaçamento interno */
+    text-align: left; /* Alinha o texto à esquerda */
+    cursor: pointer; /* Indica que o título é interativo */
 }
 
 /* ===== Tabela (table) ===== */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    background-color: #ffffff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    border-radius: 5px;
-    overflow: hidden;
-    font-family: "Barlow Condensed", sans-serif;
+    width: 100%; /* Largura total */
+    border-collapse: collapse; /* Remove espaços entre as bordas */
+    background-color: #ffffff; /* Cor de fundo da tabela */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    border-radius: 5px; /* Bordas arredondadas */
+    overflow: hidden; /* Remove qualquer transbordamento */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte escolhida */
 }
-   
+
 /* ===== Linhas da tabela (tr) ===== */
 tr {
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0; /* Borda inferior leve */
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Cor de fundo das linhas pares */
 }
 
 tr:hover {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Cor de fundo ao passar o mouse */
 }
-    
+
 /* ===== Células da tabela (td) ===== */
 td {
-    padding: 1rem;
-    text-align: left;
-    font-size: 1rem;
-    color: #333333;
-    cursor: pointer;
-    border-right: 1px solid #e0e0e0;
+    padding: 1rem; /* Espaçamento interno */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #333333; /* Cor do texto */
+    cursor: pointer; /* Indica que a célula é interativa */
+    border-right: 1px solid #e0e0e0; /* Borda à direita das células */
 }
-    
+
 td:last-child {
-    border-right: none;
+    border-right: none; /* Remove a borda da última célula */
 }
 
 /* ===== Cabeçalho da tabela (primeira linha) ===== */
 tr:first-child td {
-    font-weight: 600;
-    background-color: #000000;
-    color: #ffffff;
-    text-align: center;
-    font-size: 1.1rem;
-    border-right: 1px solid #ffffff;
+    font-weight: 600; /* Peso da fonte */
+    background-color: #000000; /* Cor de fundo preta */
+    color: #ffffff; /* Cor do texto branca */
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 1.1rem; /* Tamanho da fonte */
+    border-right: 1px solid #ffffff; /* Borda branca */
 }
 
-#total-venda-new-venda-page{
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 3rem;
-    color: #ffffff;
-    padding: 1rem;
-    text-align: right;
-    border-radius: 5px;
-    margin-bottom: 0.5rem;
-    background-color: #000000;
+/* ===== Total da venda no final da página ===== */
+#total-venda-new-venda-page {
+    font-family: "Barlow Condensed", sans-serif; /* Fonte escolhida */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 3rem; /* Tamanho grande da fonte */
+    color: #ffffff; /* Cor do texto */
+    padding: 1rem; /* Espaçamento interno */
+    text-align: right; /* Alinha o texto à direita */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-bottom: 0.5rem; /* Margem inferior */
+    background-color: #000000; /* Cor de fundo preta */
 }
+
 
 .button-container button {
     width: 100%; /* Faz com que os botões ocupem 100% da largura disponível */
@@ -180,329 +182,371 @@ tr:first-child td {
 /* ===== Botão (btn-bg-vender-new-venda-page) ===== */
 #btn-bg-vender-new-venda-page {
     width: 160px; /* Define uma largura fixa para o botão */
-    padding: 0.55rem ;
-    background-color: transparent;
-    color: #000000;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    position: relative;
-    display: inline-block;
-    align-self: flex-end;
-    text-align: center;
+    padding: 0.55rem; /* Adiciona espaçamento interno ao botão */
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #000000; /* Cor do texto */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    border: 1px solid #000000; /* Borda de 1px de cor preta */
+    border-radius: 3px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+    margin-top: 0.5rem; /* Margem superior */
+    margin-left: 0.5rem; /* Margem à esquerda */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para o efeito hover */
+    position: relative; /* Define o posicionamento relativo */
+    display: inline-block; /* Exibe o botão em linha */
+    align-self: flex-end; /* Alinha o botão ao final do contêiner */
+    text-align: center; /* Alinha o texto no centro */
 }
 
 /* Efeito de hover no botão */
 #btn-bg-vender-new-venda-page:hover {
-    background-color: #333333;
-    color: #ffffff;
-    transform: scale(1.05);
+    background-color: #333333; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
 }
 
-/* ===== Botão (btn-bg-vender-new-venda-page) ===== */
+/* ===== Botão (btn-bg-vender-new-venda-page-search) ===== */
 #btn-bg-vender-new-venda-page-search {
     width: 80px; /* Define uma largura fixa para o botão */
-    padding: 0.55rem ;
-    background-color: transparent;
-    color: #000000;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    position: relative;
-    display: inline-block;
-    align-self: flex-end;
-    text-align: left;
-    text-wrap: nowrap;
+    padding: 0.55rem; /* Adiciona espaçamento interno ao botão */
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #000000; /* Cor do texto */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    border: 1px solid #000000; /* Borda de 1px de cor preta */
+    border-radius: 3px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+    margin-top: 0.5rem; /* Margem superior */
+    margin-left: 0.5rem; /* Margem à esquerda */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para o efeito hover */
+    position: relative; /* Define o posicionamento relativo */
+    display: inline-block; /* Exibe o botão em linha */
+    align-self: flex-end; /* Alinha o botão ao final do contêiner */
+    text-align: left; /* Alinha o texto à esquerda */
+    text-wrap: nowrap; /* Impede a quebra de linha no texto */
 }
 
 /* Efeito de hover no botão */
 #btn-bg-vender-new-venda-page-search:hover {
-    background-color: #333333;
-    color: #ffffff;
-    transform: scale(1.05);
+    background-color: #333333; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
 }
 
-#btn-bg-ver-mais-venda-page{
+/* ===== Botão (btn-bg-ver-mais-venda-page) ===== */
+#btn-bg-ver-mais-venda-page {
     width: 80px; /* Define uma largura fixa para o botão */
-    padding: 0.55rem ;
-    background-color: transparent;
-    color: #000000;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    position: relative;
-    display: inline-block;
-    align-self: flex-end;
-    text-align: center;
+    padding: 0.55rem; /* Adiciona espaçamento interno ao botão */
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #000000; /* Cor do texto */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    border: 1px solid #000000; /* Borda de 1px de cor preta */
+    border-radius: 3px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+    margin-top: 0.5rem; /* Margem superior */
+    margin-left: 0.5rem; /* Margem à esquerda */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para o efeito hover */
+    position: relative; /* Define o posicionamento relativo */
+    display: inline-block; /* Exibe o botão em linha */
+    align-self: flex-end; /* Alinha o botão ao final do contêiner */
+    text-align: center; /* Alinha o texto no centro */
 }
 
 /* Efeito de hover no botão */
 #btn-bg-ver-mais-new-venda-page:hover {
-    background-color: #333333;
-    color: #ffffff;
-    transform: scale(1.05);
+    background-color: #333333; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
 }
 
-#btn-bg-vender-new-venda-page-search-form{
+/* ===== Botão (btn-bg-vender-new-venda-page-search-form) ===== */
+#btn-bg-vender-new-venda-page-search-form {
     width: 100px; /* Define uma largura fixa para o botão */
-    padding: 0.55rem ;
-    background-color: transparent;
-    color: #000000;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    border: 1px solid #000000;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-top: 0.5rem;
-    margin-left: 0.5rem;
-    margin-bottom: 1rem;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    position: relative;
-    display: inline-block;
-    align-self: flex-end;
-    text-align: center;
+    padding: 0.55rem; /* Adiciona espaçamento interno ao botão */
+    background-color: transparent; /* Cor de fundo transparente */
+    color: #000000; /* Cor do texto */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    border: 1px solid #000000; /* Borda de 1px de cor preta */
+    border-radius: 3px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+    margin-top: 0.5rem; /* Margem superior */
+    margin-left: 0.5rem; /* Margem à esquerda */
+    margin-bottom: 1rem; /* Margem inferior */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transição suave para o efeito hover */
+    position: relative; /* Define o posicionamento relativo */
+    display: inline-block; /* Exibe o botão em linha */
+    align-self: flex-end; /* Alinha o botão ao final do contêiner */
+    text-align: center; /* Alinha o texto no centro */
 }
 
 /* Efeito de hover no botão */
 #btn-bg-vender-new-venda-page-search-form:hover {
-    background-color: #333333;
-    color: #ffffff;
-    transform: scale(1.05);
+    background-color: #333333; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
 }
 
 /* ===== Estilos para o textarea ===== */
 textarea {
-    width: 100%;
-    min-height: 100px;
-    max-height: 300px;
-    padding: 1rem;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 1rem;
-    color: #000000;
-    background-color: #ffffff;
-    resize: vertical;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Largura do textarea ocupa 100% do contêiner */
+    min-height: 100px; /* Altura mínima do textarea */
+    max-height: 300px; /* Altura máxima do textarea */
+    padding: 1rem; /* Espaçamento interno */
+    border: 1px solid #000000; /* Borda de 1px de cor preta */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    background-color: #ffffff; /* Cor de fundo do textarea */
+    resize: vertical; /* Permite redimensionar verticalmente */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Sombra suave ao redor */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transições suaves para borda e sombra */
 }
 
+/* Estilos para o textarea ao receber foco */
 textarea:focus {
-    border-color: #333333;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
-    outline: none;
+    border-color: #333333; /* Cor da borda ao focar no textarea */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25); /* Sombra mais intensa ao focar */
+    outline: none; /* Remove a borda de foco padrão */
 }
 
-p{
-    text-align: center;
-    font-family: "Barlow Condensed", sans-serif;
-    font-size: 1.15rem;
-    color: #000000;
+/* ===== Estilos para parágrafos (p) ===== */
+p {
+    text-align: center; /* Centraliza o texto */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-size: 1.15rem; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
 }
 
 /* ===== Telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
 @media (max-width: 480px) {
+    /* Ajusta o tamanho do título (h2) para telas pequenas */
     h2 {
-        font-size: 2.5rem;
-        margin-bottom: -0.5rem;
+        font-size: 2.5rem; /* Tamanho de fonte reduzido para otimizar o layout */
+        margin-bottom: -0.5rem; /* Ajusta o espaço inferior */
     }
 
+    /* Ajusta o tamanho do subtítulo (h6) */
     h6 {
-        font-size: 1rem;
-        margin-top: 0.5rem;
-        padding-bottom: 0.25rem;
+        font-size: 1rem; /* Reduz o tamanho da fonte */
+        margin-top: 0.5rem; /* Ajusta o espaço acima */
+        padding-bottom: 0.25rem; /* Espaçamento inferior */
     }
 
+    /* Ajusta o tamanho do ícone de criança */
     .fa-child {
-        font-size: 1.5rem;
+        font-size: 1.5rem; /* Tamanho do ícone reduzido */
     }
 
+    /* Ajusta a espaçamento de células (row) para telas pequenas */
     .row {
-        padding: 1.5rem;
-        gap: 0.5rem;
+        padding: 1.5rem; /* Reduz o espaçamento interno */
+        gap: 0.5rem; /* Ajusta o espaçamento entre os elementos */
     }
 
+    /* Ajusta o comportamento das colunas para ocupar toda a largura disponível */
     .col {
-        flex: 1 1 100%;
-        max-width: unset;
-        height: auto;
+        flex: 1 1 100%; /* Garante que cada coluna ocupe 100% da largura */
+        max-width: unset; /* Remove limite de largura */
+        height: auto; /* Permite que a altura seja dinâmica */
     }
 
+    /* Ajusta a aparência das células da tabela */
     td {
-        font-size: 0.75rem;
-        padding: 0.5rem;
+        font-size: 0.75rem; /* Reduz o tamanho da fonte */
+        padding: 0.5rem; /* Ajusta o padding das células */
     }
 
+    /* Ajusta o estilo dos botões para telas pequenas */
     .button-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 0.5rem;
-        width: 100%;
-        justify-items: center;
+        display: grid; /* Utiliza grid para posicionar os botões */
+        grid-template-columns: repeat(2, 1fr); /* Duas colunas para os botões */
+        gap: 0.5rem; /* Espaçamento entre os botões */
+        width: 100%; /* Ocupa toda a largura disponível */
+        justify-items: center; /* Centraliza os botões */
     }
 
     #btn-bg-vender-new-venda-page,
     #btn-bg-vender-new-venda-page-search,
     #btn-bg-vender-new-venda-page-search-form {
-        font-size: 0.8rem;
-        padding: 0.5rem 0.8rem;
-        width: auto;
-        align-self: center;
+        font-size: 0.8rem; /* Reduz o tamanho da fonte */
+        padding: 0.5rem 0.8rem; /* Ajusta o padding */
+        width: auto; /* Ajusta a largura automaticamente */
+        align-self: center; /* Centraliza o botão */
     }
 
+    /* Ajuste no estilo do textarea */
     textarea {
-        min-height: 60px;
-        font-size: 0.85rem;
-        padding: 0.7rem;
+        min-height: 60px; /* Altura mínima ajustada */
+        font-size: 0.85rem; /* Ajuste no tamanho da fonte */
+        padding: 0.7rem; /* Ajuste no padding */
     }
 }
 
 /* ===== Telas pequenas - Smartphones (entre 480px e 767px) ===== */
 @media (max-width: 767px) {
+    /* Ajusta o tamanho do título (h2) para smartphones */
     h2 {
-        font-size: 3rem;
-        margin-bottom: 0rem;
+        font-size: 3rem; /* Tamanho de fonte um pouco maior que o anterior */
+        margin-bottom: 0rem; /* Remove o espaçamento inferior */
     }
 
+    /* Ajusta o tamanho do subtítulo (h6) */
     h6 {
-        font-size: 1.25rem;
+        font-size: 1.25rem; /* Tamanho maior para maior legibilidade */
     }
 
+    /* Ajusta o tamanho do ícone de criança */
     .fa-child {
-        font-size: 2rem;
+        font-size: 2rem; /* Tamanho do ícone aumentado */
     }
 
+    /* Ajusta a espaçamento de células (row) para smartphones */
     .row {
-        padding: 2rem;
-        gap: 1rem;
+        padding: 2rem; /* Aumenta o padding */
+        gap: 1rem; /* Aumenta o espaçamento entre os itens */
     }
 
+    /* Ajusta o comportamento das colunas para ocupar toda a largura disponível */
     .col {
-        flex: 1 1 100%;
-        max-width: unset;
-        height: auto;
+        flex: 1 1 100%; /* Colunas ocupando 100% da largura */
+        max-width: unset; /* Remove limites de largura */
+        height: auto; /* Permite altura dinâmica */
     }
 
+    /* Ajusta o tamanho das células da tabela */
     td {
-        font-size: 0.85rem;
-        padding: 0.6rem;
+        font-size: 0.85rem; /* Tamanho da fonte ligeiramente maior */
+        padding: 0.6rem; /* Ajuste no padding */
     }
 
+    /* Ajusta o layout dos botões */
     .button-container {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.5rem;
-        width: 100%;
-        justify-items: center;
+        display: grid; /* Exibe os botões em grid */
+        grid-template-columns: repeat(4, 1fr); /* Quatro colunas para os botões */
+        gap: 0.5rem; /* Espaço entre os botões */
+        width: 100%; /* Ocupa toda a largura */
+        justify-items: center; /* Centraliza os botões */
     }
 
+    /* Ajuste no estilo do textarea */
     textarea {
-        min-height: 80px;
-        font-size: 0.9rem;
-        padding: 0.8rem;
+        min-height: 80px; /* Aumenta a altura mínima */
+        font-size: 0.9rem; /* Aumenta o tamanho da fonte */
+        padding: 0.8rem; /* Aumenta o padding */
     }
 }
 
 /* ===== Telas médias - Tablets (entre 768px e 1024px) ===== */
 @media (max-width: 1024px) {
+    /* Ajusta o tamanho do título (h2) para tablets */
     h2 {
-        font-size: 4rem;
-        margin-bottom: -0.5rem;
+        font-size: 4rem; /* Tamanho maior para tablets */
+        margin-bottom: -0.5rem; /* Ajuste no espaçamento inferior */
     }
 
+    /* Ajuste no tamanho do subtítulo (h6) */
     h6 {
-        font-size: 1.25rem;
+        font-size: 1.25rem; /* Aumenta o tamanho do subtítulo */
     }
 
+    /* Ajusta o tamanho do ícone de criança */
     .fa-child {
-        font-size: 2.5rem;
+        font-size: 2.5rem; /* Aumenta o tamanho do ícone */
     }
 
+    /* Ajusta o layout das colunas para tablets */
     .row {
-        padding: 2.5rem;
-        gap: 1.5rem;
+        padding: 2.5rem; /* Aumenta o padding */
+        gap: 1.5rem; /* Aumenta o espaçamento entre os elementos */
     }
 
+    /* Ajusta o comportamento das colunas */
     .col {
-        flex: 1 1 48%;
-        height: auto;
+        flex: 1 1 48%; /* Ocupa 48% da largura disponível */
+        height: auto; /* Permite altura dinâmica */
     }
 
-    td {
-        font-size: 0.7rem;
-        padding: 0.8rem;
-    }
-
+    /* Ajuste no estilo da tabela */
     table {
-        overflow-x: auto;
+        overflow-x: auto; /* Permite rolagem horizontal em tabelas grandes */
+    }
+
+    /* Ajusta o estilo das células da tabela */
+    td {
+        font-size: 0.7rem; /* Tamanho da fonte ajustado */
+        padding: 0.8rem; /* Aumenta o padding */
     }
 }
 
 /* ===== Telas de alta resolução (175% ou superior) ===== */
 @media (min-resolution: 168dpi) and (min-width: 768px) {
+    /* Ajuste do tamanho geral da fonte */
     body {
-        font-size: 1.2rem; /* Ajuste do tamanho geral */
-        height: auto; /* Permite que a altura seja dinâmica */
+        font-size: 1.2rem; /* Aumenta o tamanho da fonte para telas de alta resolução */
+        height: auto; /* Permite altura dinâmica */
     }
 
+    /* Ajusta o layout das linhas para telas de alta resolução */
     .row {
-        display: flex;
-        flex-direction: column; /* Alinha os itens um abaixo do outro */
-        align-items: center; /* Centraliza os itens no eixo horizontal */
-        padding: 4rem; /* Adiciona espaçamento interno */
-        gap: 2rem; /* Espaço entre os itens */
+        display: flex; /* Flexbox para alinhar os itens */
+        flex-direction: column; /* Alinha os itens na vertical */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        padding: 4rem; /* Aumenta o padding */
+        gap: 2rem; /* Aumenta o espaço entre os itens */
     }
 
+    /* Ajusta o comportamento das colunas para telas grandes */
     .col {
-        flex: none; /* Remove comportamento flexível automático */
+        flex: none; /* Remove o comportamento flexível */
         width: 100%; /* Ocupa 100% da largura disponível */
         max-width: 600px; /* Define uma largura máxima para centralizar os itens */
-        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra consistente */
-        border-radius: 8px; /* Borda mais suave */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Aplica sombra para melhorar o visual */
+        border-radius: 8px; /* Bordas arredondadas para suavizar o layout */
     }
 
+    /* Ajuste no tamanho do título */
     h2 {
-        font-size: 5.5rem; /* Ajusta o tamanho do título */
-        text-align: center;
+        font-size: 5.5rem; /* Tamanho do título grande */
+        text-align: center; /* Centraliza o título */
     }
 
+    /* Ajuste no tamanho do subtítulo */
     h6 {
-        font-size: 1.2rem; /* Ajusta o subtítulo */
-        text-align: center;
+        font-size: 1.2rem; /* Tamanho maior para melhor legibilidade */
+        text-align: center; /* Centraliza o subtítulo */
     }
 
+    /* Ajusta o layout da tabela */
     table {
-        max-width: 100%; /* Garante que a tabela não exceda a largura do container */
-        overflow-x: auto; /* Permite rolagem horizontal */
+        max-width: 100%; /* Garante que a tabela não ultrapasse a largura do container */
+        overflow-x: auto; /* Permite rolagem horizontal se necessário */
     }
 
+    /* Ajuste no estilo das células da tabela */
     td {
-        font-size: 1.1rem; /* Melhora a legibilidade da tabela */
-        padding: 1.2rem; /* Adiciona espaçamento */
+        font-size: 1.1rem; /* Aumenta o tamanho da fonte para melhorar a legibilidade */
+        padding: 1.2rem; /* Aumenta o padding */
     }
 
+    /* Ajuste no estilo do botão */
     #btn-bg-vender-new-venda-page {
-        width: 100%;
-        font-size: 1.1rem; /* Ajusta o tamanho do botão */
-        padding: 0.7rem 1.7rem; /* Torna o botão maior */
+        width: 100%; /* Botão ocupa 100% da largura */
+        font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+        padding: 0.8rem; /* Aumenta o padding */
+    }
+
+    /* Ajuste no textarea */
+    textarea {
+        min-height: 100px; /* Aumenta a altura mínima */
+        font-size: 1.1rem; /* Aumenta o tamanho da fonte */
+        padding: 1rem; /* Aumenta o padding */
     }
 }
