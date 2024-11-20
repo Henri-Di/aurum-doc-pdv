@@ -138,7 +138,7 @@
 
 
             <div class="col .col-wide">
-                <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO CUPOM</h5>
+                <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVA VENDA</h5>
                 <button id="btn-bg-vender-new-venda-page-search-form"><i class="fa fa-search"></i> PESQUISAR</button>
                 <table class="table table-bordered">
                     <tr>
@@ -279,11 +279,11 @@
                 </div>
 
                 <h5><i class="fa fa-user" aria-hidden="true"></i> CLIENTE</h5>
-                <p>Nenhum cliente selecionado</p>
+                <p>NENHUM CLIENTE SELECIONADO</p>
 
 
                 <h5><i class="fa fa-user" aria-hidden="true"></i> VENDEDOR</h5>
-                <p>Nenhum vendedor selecionado</p>
+                <p>NENHUM VENDEDOR SELECIONADO</p>
 
 
                 <h5><i class="fa fa-money" aria-hidden="true"></i> PAGAMENTO</h5>

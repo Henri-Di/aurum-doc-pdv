@@ -6,9 +6,9 @@ const dataDespesas = {
     datasets: [
         {
             label: 'DESPESAS',
-            data: [10000, 7000, 5000, 2000, 4000, 8000, 12000, 7000, 3000, 1000, 5000, 7000],
+            data: [2000, 7500, 4500, 8500, 11250, 9500, 3500, 7500, 4500, 2000, 1500, 3500],
             backgroundColor: 'rgba(255, 99, 132, 0.2)', // Cor do preenchimento (vermelho semi-transparente)
-            borderColor: 'rgb(255, 99, 132)', // Cor da linha (vermelho sólido)
+            borderColor: 'rgb(255, 0, 0)', // Cor da linha (vermelho sólido)
             borderWidth: 3, // Espessura da linha
             tension: 0.4, // Suavização da linha
             pointBackgroundColor: '#ffffff', // Cor dos pontos no gráfico
@@ -25,18 +25,19 @@ const dataDespesas = {
 // Configuração do gráfico
 const configDespesas = {
     type: 'line', // ou 'bar' para gráfico de barras
-    data: dataDespesas, // Aqui corrigimos para usar o objeto de dados correto
+    data: dataDespesas,
     options: {
-        responsive: true,
+        responsive: true, // O gráfico será responsivo
+        maintainAspectRatio: false, // Permite a alteração do aspecto do gráfico quando a tela for redimensionada
         plugins: {
             legend: {
                 display: true,
                 position: 'top',
                 labels: {
-                    color: '#ff3366', // Cor da legenda
+                    color: '#ff3366',
                     font: {
-                        size: 14, // Tamanho da fonte
-                        family: 'Barlow Condensed, sans-serif' // Fonte da legenda
+                        size: window.innerWidth < 480 ? 12 : 14, // Reduz tamanho da fonte em telas menores
+                        family: 'Barlow Condensed, sans-serif'
                     },
                 },
             },
@@ -47,39 +48,39 @@ const configDespesas = {
                 title: {
                     display: true,
                     text: 'ANO 2024',
-                    color: '#ff3366', // Cor do título do eixo Y
+                    color: '#ff3366',
                     font: {
-                        size: 16, // Tamanho da fonte
-                        weight: '500', // Peso da fonte
-                        family: 'Barlow Condensed, sans-serif' // Fonte do título do eixo Y
+                        size: window.innerWidth < 480 ? 12 : 16, // Reduz tamanho da fonte em telas menores
+                        weight: '500',
+                        family: 'Barlow Condensed, sans-serif'
                     },
                 },
                 ticks: {
-                    color: '#000000', // Cor dos valores do eixo Y
+                    color: '#000000',
                     font: {
-                        size: 11, // Tamanho da fonte
-                        weight: '500', // Peso da fonte
-                        family: 'Barlow Condensed, sans-serif' // Fonte dos valores do eixo Y
+                        size: window.innerWidth < 480 ? 10 : 11, // Reduz tamanho da fonte em telas menores
+                        weight: '500',
+                        family: 'Barlow Condensed, sans-serif'
                     },
                 },
             },
             x: {
                 title: {
                     display: true,
-                    text: 'MESES',
-                    color: '#ff3366', // Cor do título do eixo X
+                    text: '',
+                    color: '#ff3366',
                     font: {
-                        size: 14, // Tamanho da fonte
-                        weight: '500', // Peso da fonte
-                        family: 'Barlow Condensed, sans-serif' // Fonte do título do eixo X
+                        size: window.innerWidth < 480 ? 12 : 14, // Reduz tamanho da fonte em telas menores
+                        weight: '500',
+                        family: 'Barlow Condensed, sans-serif'
                     },
                 },
                 ticks: {
-                    color: '#000000', // Cor dos valores do eixo X
+                    color: '#000000',
                     font: {
-                        size: 11, // Tamanho da fonte
-                        weight: '500', // Peso da fonte
-                        family: 'Barlow Condensed, sans-serif' // Fonte dos valores do eixo X
+                        size: window.innerWidth < 480 ? 10 : 11, // Reduz tamanho da fonte em telas menores
+                        weight: '500',
+                        family: 'Barlow Condensed, sans-serif'
                     },
                 },
             },
