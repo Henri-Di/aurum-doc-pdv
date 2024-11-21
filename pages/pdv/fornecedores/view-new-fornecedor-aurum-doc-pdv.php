@@ -146,27 +146,46 @@
 
                     <!-- Campo: Telefone 1 -->
                     <div>
-                        <label for="telefone">Contato 1</label>
+                        <label for="telefone">Contato Empresa</label>
                         <input type="text" id="telefone" name="telefone" placeholder="Contato 1" autocomplete="off"/>
-                    </div>
-
-                    <!-- Campo: Telefone 2 -->
-                    <div>
-                        <label for="telefone2">Contato 2</label>
-                        <input type="text" id="telefone2" name="telefone2" placeholder="Contato 2" autocomplete="off"/>
                     </div>
 
                     <!-- Campo: E-mail -->
                     <div>
-                        <label for="email">E-mail</label>
+                        <label for="email">E-mail Empresa</label>
                         <input type="email" id="email" name="email" placeholder="E-mail" autocomplete="off"/>
                     </div>
-
+                    
                     <!-- Campo: Site -->
                     <div>
                         <label for="site">Site</label>
                         <input type="site" id="site" name="site" placeholder="Site" autocomplete="off"/>
                     </div>
+                    
+                    <!-- Campo: Responsável -->
+                    <div>
+                        <label for="telefone">Responsável</label>
+                        <input type="text" id="responsavel" name="responsavel" placeholder="Responsável" autocomplete="off"/>
+                    </div>
+
+                    <!-- Campo: Cargo -->
+                    <div>
+                        <label for="telefone">Cargo</label>
+                        <input type="text" id="cargo" name="cargo" placeholder="Cargo" autocomplete="off"/>
+                    </div>
+
+                    <!-- Campo: Telefone 2 -->
+                    <div>
+                        <label for="telefone2">Contato Responsável</label>
+                        <input type="text" id="telefone2" name="telefone2" placeholder="Contato 2" autocomplete="off"/>
+                    </div>
+
+                    <!-- Campo: E-mail Responsável -->
+                    <div>
+                        <label for="email">E-mail Responsável</label>
+                        <input type="email" id="email2" name="email2" placeholder="E-mail" autocomplete="off"/>
+                    </div>
+
 
 
 

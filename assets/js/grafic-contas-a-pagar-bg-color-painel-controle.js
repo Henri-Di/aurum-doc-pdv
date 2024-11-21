@@ -1,14 +1,14 @@
 // Seleciona o contexto do canvas onde o gráfico será desenhado
-// Seleciona o contexto do canvas onde o gráfico de despesas será desenhado
-const ctxDespesas = document.getElementById('salesChartDespesas').getContext('2d');
+// Seleciona o contexto do canvas onde o gráfico de contas a pagar será desenhado
+const ctxContasPagar = document.getElementById('salesChartContasPagar').getContext('2d');
 
-// Dados fictícios para o gráfico de despesas (representação dos gastos mensais)
-const dataDespesas = {
-    labels: ['JANEIRO', 'FEVEREIRO', 'MARÇO', 'ABRIL', 'MAIO', 'JUNHO', 'JULHO', 'AGOSTO', 'SETEMBRO', 'OUTUBRO', 'NOVEMBRO', 'DEZEMBRO'], // Rótulos para os meses
+// Dados fictícios para o gráfico de contas a pagar (representação dos gastos mensais)
+const dataContasPagar = {
+    labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'], // Rótulos para os meses
     datasets: [
         {
             label: 'DESPESAS', // Nome do conjunto de dados (o que será exibido na legenda)
-            data: [2000, 7500, 4500, 8500, 11250, 9500, 3500, 7500, 4500, 2000, 1500, 3500], // Valores mensais para as despesas
+            data: [13832, 9042, 16289, 4562, 13049, 12680, 15842, 10154, 7354, 17813, 4201, 17788], // Valores mensais para as contas a pagar
             backgroundColor: 'rgba(255, 99, 132, 0.2)', // Cor do preenchimento da área (vermelho claro e semi-transparente)
             borderColor: 'rgb(255, 0, 0)', // Cor da linha (vermelho sólido)
             borderWidth: 3, // Espessura da linha do gráfico
@@ -25,9 +25,9 @@ const dataDespesas = {
 };
 
 // Configuração geral do gráfico
-const configDespesas = {
-    type: 'line', // Define o tipo do gráfico como 'line' (linha); pode ser alterado para 'bar' para gráfico de barras
-    data: dataDespesas, // Dados do gráfico, como os valores e os rótulos
+const configContasPagar = {
+    type: 'line', // Define o tipo de gráfico 
+    data: dataContasPagar, // Dados do gráfico, como os valores e os rótulos
     options: {
         responsive: true, // Faz com que o gráfico seja responsivo ao redimensionar a tela
         maintainAspectRatio: false, // Permite que o gráfico altere a proporção quando redimensionado
@@ -91,4 +91,4 @@ const configDespesas = {
 };
 
 // Renderiza o gráfico na tela com a configuração fornecida
-new Chart(ctxDespesas, configDespesas);
+new Chart(ctxContasPagar, configContasPagar);

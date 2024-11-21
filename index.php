@@ -83,7 +83,7 @@
         <h2>AURUM</h2>
         <h6>SISTEMA DE VENDAS <i class="fa fa-child"></i></h6>
 
-        <button id="btn-acessar-aurum-bg">Acessar</button>
+        <button onclick="window.location.href='./pages/pdv/painel-controle/view-painel-controle-aurum-doc-pdv.php';" id="btn-acessar-aurum-bg">Acessar</button>
     </div>
 
    

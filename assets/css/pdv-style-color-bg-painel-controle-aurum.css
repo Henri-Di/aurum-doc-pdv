@@ -36,6 +36,7 @@ h2 {
     font-weight: 600; /* Peso da fonte em negrito */
     font-size: 5rem; /* Define o tamanho do título */
     color: #000000; /* Cor preta para o título */
+    cursor: pointer; /* Torna o subtítulo clicável */
     text-align: center; /* Alinha o título ao centro */
     margin-bottom: 0; /* Remove a margem inferior */
 }
@@ -160,7 +161,7 @@ h6 {
 }
 
 /* ===== Estilos para os cards de receitas, despesas, vendas e departamentos ===== */
-#receitas, #despesas, #vendas, #departamentos, #vendashora {
+#gestaovendas, #gestaocustos, #gestaodividas, #contasreceber, #contaspagar {
     background-color: #ffffff; /* Fundo branco para os cards */
     border-radius: 8px; /* Bordas arredondadas */
     border: 1px solid #000000; /* Borda preta */
@@ -177,9 +178,8 @@ h6 {
 }
 
 /* ===== Estilos para os gráficos (salesChart) ===== */
-#salesChartReceitas, #salesChartDespesas,
-#salesChartVendas, #salesChartDepartamentos,
-#salesChartVendasHora {
+#salesChartGestaoVendas, #salesChartContasReceber, #salesChartContasPagar,
+#salesChartGestaoCustos, #salesChartGestaoDividas {
     width: 100%; /* Largura total disponível para os gráficos */
     height: auto; /* Altura automática */
     max-height:200px; /* Limite máximo de altura */
@@ -187,8 +187,8 @@ h6 {
 }
 
 /* Efeito de hover nos gráficos (quando o mouse passa por cima) */
-#salesChartReceitas:hover, #salesChartDespesas:hover,
-#salesChartVendas:hover, #salesChartDepartamentos:hover, #salesChartVendasHora:hover {
+#salesChartGestaoVendas:hover, #salesChartContasReceber:hover, #salesChartContasPagar:hover,
+#salesChartGestaoCustos:hover, #salesChartGestaoDividas:hover {
     transform: scale(1.05); /* Aumenta ligeiramente o tamanho do gráfico */
 }
 

@@ -32,6 +32,7 @@ h2 {
     font-weight: 600; /* Peso da fonte */
     font-size: 5rem; /* Tamanho da fonte */
     color: #000000; /* Cor do título */
+    cursor: pointer; /* Torna o subtítulo clicável */
     text-align: center; /* Alinha o título ao centro */
     margin-bottom: 0; /* Remove margem inferior */
 }

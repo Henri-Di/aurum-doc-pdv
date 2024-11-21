@@ -30,6 +30,7 @@ h2 {
     font-style: normal; /* Define o estilo da fonte como normal */
     font-size: 7rem; /* Tamanho grande para destaque, ideal para desktop */
     color: #000000; /* Define a cor do texto como preto */
+    cursor: pointer; /* Torna o subtítulo clicável */
     text-align: center; /* Centraliza o texto */
     margin-bottom: -1rem; /* Ajusta o espaço inferior para aproximar do próximo elemento */
     cursor: pointer; /* Transforma o ponteiro do mouse em "mãozinha" ao passar sobre o texto */

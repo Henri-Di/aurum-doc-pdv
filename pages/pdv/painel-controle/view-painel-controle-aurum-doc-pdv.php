@@ -78,79 +78,93 @@
             <div class="col col-narrow">
                 <h5><i class="fa fa-pie-chart"></i> FINANCEIRO</h5>
                 <div class="button-container">
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> RECEITAS</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> DESPESAS</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> DEPARTAMENTOS</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> CATEGORIAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> GESTÃO DE CAIXA</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> GESTÃO DE CUSTOS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> GESTÃO DE DIVIDAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> INVESTIMENTOS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> CONTAS A RECEBER</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> CONTAS A PAGAR</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> PLANEJAMENTO</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-pie-chart" aria-hidden="true"></i> RELATÓRIOS</button>
                 </div>
 
                 <h5><i class="fa fa-cube"></i> ESTOQUE</h5>
                 <div class="button-container">
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='../estoque/view-new-produto-aurum-doc-pdv.php';"><i class="fa fa-cube" aria-hidden="true"></i> NOVO PRODUTO</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> GRUPO</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> MARCA</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> MODELO</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> PREÇO</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> EAN</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> GESTÃO DE PRODUTO</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> GESTÃO DE GRUPO</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> GESTÃO DE MARCA</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> GESTÃO DE MODELO</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> GESTÃO DE PREÇO</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> GESTÃO DE EAN</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> INVENTÁRIO</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-cube" aria-hidden="true"></i> RELATÓRIOS</button>
                 </div>
 
                 <h5><i class="fa fa-shopping-cart"></i> VENDAS</h5>
                 <div class="button-container">
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ABRIR CAIXA</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO CAIXA</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> FECHAR CAIXA</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='../vendas/view-new-venda-aurum-doc-pdv.php';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVA VENDA</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVA TROCA</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='../clientes/view-new-cliente-aurum-doc-pdv.php';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO CLIENTE</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO VENDEDOR</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ESTORNO</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> PAGAMENTOS</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ORÇAMENTO</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ORÇAMENTOS</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> RELATÓRIOS</button>
                 </div>
 
                 <h5><i class="fa fa-truck"></i> FORNECEDOR</h5>
                 <div class="button-container">
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='../fornecedores/view-new-fornecedor-aurum-doc-pdv.php';"><i class="fa fa-truck" aria-hidden="true"></i> NOVO FORNECEDOR</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> COMPRA</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> ENTRADA</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> DEVOLUÇÃO</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> FRETE</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> GESTÃO FORNECEDOR</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> GESTÃO DE COMPRAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> GESTÃO DE ENTRADA</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> GESTÃO DE SAÍDA</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> GESTÃO DE FRETE</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-truck" aria-hidden="true"></i> RELATÓRIOS</button>
+                </div>
+
+                <h5><i class="fa fa-folder-open"></i> HISTÓRICO</h5>
+                <div class="button-container">
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-folder-open" aria-hidden="true"></i> VENDAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-folder-open" aria-hidden="true"></i> COMPRAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-folder-open" aria-hidden="true"></i> ENTRADAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-folder-open" aria-hidden="true"></i> SAÍDAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-folder-open" aria-hidden="true"></i> PESSOAS</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-folder-open" aria-hidden="true"></i> PRODUTOS</button>
                 </div>
             </div>
 
             <div class="col col-wide">
             <h5><i class="fa fa-pie-chart" aria-hidden="true"></i> PAINEL FINANCEIRO</h5>
-                <div class="container" id="receitas">
-                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> RELATÓRIO RECEITAS</h1>
-                    <canvas id="salesChartReceitas"></canvas>
+            <div class="container" id="gestaovendas">
+                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> GESTÃO DE CAIXA</h1>
+                    <canvas id="salesChartGestaoVendas"></canvas>
                 </div>
 
-                <div class="container" id="despesas">
-                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> RELATÓRIO DESPESAS</h1>
-                    <canvas id="salesChartDespesas"></canvas>
+                <div class="container" id="gestaocustos">
+                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> GESTÃO DE CUSTOS</h1>
+                    <canvas id="salesChartGestaoCustos"></canvas>
                 </div>
 
-                <div class="container" id="departamentos">
-                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> RELATÓRIO DEPARTAMENTOS</h1>
-                    <canvas id="salesChartDepartamentos"></canvas>
+                <div class="container" id="gestaodividas">
+                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> GESTÃO DE DÍVIDAS</h1>
+                    <canvas id="salesChartGestaoDividas"></canvas>
+                </div>
+
+                <div class="container" id="contasreceber">
+                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> CONTAS A RECEBER</h1>
+                    <canvas id="salesChartContasReceber"></canvas>
+                </div>
+
+                <div class="container" id="contaspagar">
+                    <h1><i class="fa fa-pie-chart" aria-hidden="true"></i> CONTAS A PAGAR</h1>
+                    <canvas id="salesChartContasPagar"></canvas>
                 </div>
     
                 <br>
+                <br>
 
-                <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i> PAINEL VENDAS</h5>
-                
-                <div class="container" id="vendas">
-                    <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i> RELATÓRIO VENDAS ANUAL</h1>
-                    <canvas id="salesChartVendas"></canvas>
-                </div>
-
-                <div class="container" id="vendashora">
-                    <h1><i class="fa fa-shopping-cart" aria-hidden="true"></i> RELATÓRIO VENDAS HORA</h1>
-                    <canvas id="salesChartVendasHora"></canvas>
-                </div>
             </div>
         </div>
     </div>
@@ -181,11 +195,12 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Scripts personalizados -->
-<script src="../../../assets/js/grafic-receita-bg-color-painel-controle.js"></script>
-<script src="../../../assets/js/grafic-despesa-bg-color-painel-controle.js"></script>
-<script src="../../../assets/js/grafic-departamento-bg-color-painel-controle.js"></script>
-<script src="../../../assets/js/grafic-vendas-anual-bg-color-painel-controle.js"></script>
-<script src="../../../assets/js/grafic-vendas-hora-bg-color-paine-controle.js"></script>
+<script src="../../../assets/js/grafic-gestao-vendas-bg-color-painel-controle.js"></script>
+<script src="../../../assets/js/grafic-gestao-custos-bg-color-painel-controle.js"></script>
+<script src="../../../assets/js/grafic-contas-a-receber-bg-color-painel-controle.js"></script>
+<script src="../../../assets/js/grafic-contas-a-pagar-bg-color-painel-controle.js"></script>
+<script src="../../../assets/js/grafic-gestao-dividas-bg-color-painel-controle.js"></script>
+
 
 
 </html>

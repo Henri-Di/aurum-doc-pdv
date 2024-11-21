@@ -1,18 +1,18 @@
 // Seleciona o contexto do canvas onde o gráfico será desenhado
-// Este canvas é onde o gráfico de departamentos será renderizado
-const ctxDepartamentos = document.getElementById('salesChartDepartamentos').getContext('2d');
+// Este canvas é onde o gráfico de gestão de vendas será renderizado
+const ctxGestaoVendas = document.getElementById('salesChartGestaoVendas').getContext('2d');
 
-// Dados fictícios representando as vendas mensais de diferentes departamentos
-const dataDepartamentos = {
+// Dados fictícios representando as vendas mensais de "GestaoVendas"
+const dataGestaoVendas = {
     // Rótulos dos meses do ano para o eixo X
-    labels: ['JANEIRO', 'FEVEREIRO', 'MARÇO', 'ABRIL', 'MAIO', 'JUNHO', 'JULHO', 'AGOSTO', 'SETEMBRO', 'OUTUBRO', 'NOVEMBRO', 'DEZEMBRO'],
+    labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'], // Rótulos para os meses
     datasets: [
         {
-            // Nome do conjunto de dados que será exibido no gráfico (neste caso, "DEPARTAMENTOS")
-            label: 'DEPARTAMENTOS', 
+            // Nome do conjunto de dados que será exibido no gráfico (agora "GESTÃO DE VENDAS")
+            label: 'VENDAS', 
             
-            // Dados mensais representando a quantidade de vendas ou atividades por departamento
-            data: [5000, 7000, 3000, 9000, 13000, 6000, 4000, 8000, 15000, 20000, 22000],
+            // Dados mensais representando a quantidade de vendas ou atividades de gestão de vendas
+            data: [13602, 11488, 15076, 16395, 10432, 18591, 8093, 14055, 18217, 10134, 9350, 14680],
             
             // Cor de preenchimento da área do gráfico (azul claro e semi-transparente)
             backgroundColor: 'rgba(0, 102, 255, 0.2)', 
@@ -39,11 +39,11 @@ const dataDepartamentos = {
 };
 
 // Configuração geral do gráfico
-const configDepartamentos = {
-    // Tipo de gráfico: 'line' (gráfico de linha)
+const configGestaoVendas = {
+    // Define o tipo de gráfico 
     type: 'line', 
     // Dados a serem exibidos no gráfico
-    data: dataDepartamentos,
+    data: dataGestaoVendas,
     options: {
         // Responsividade: o gráfico se adapta ao tamanho da tela
         responsive: true, 
@@ -117,4 +117,4 @@ const configDepartamentos = {
 };
 
 // Renderiza o gráfico na tela utilizando o contexto selecionado
-new Chart(ctxDepartamentos, configDepartamentos);
+new Chart(ctxGestaoVendas, configGestaoVendas);

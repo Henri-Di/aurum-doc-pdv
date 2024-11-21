@@ -1,13 +1,13 @@
 // Seleciona o contexto do canvas onde o gráfico será desenhado
-// Este canvas é onde o gráfico de receitas será renderizado
-const ctxReceitas = document.getElementById('salesChartReceitas').getContext('2d');
+// Este canvas é onde o gráfico de contas a receber será renderizado
+const ctxContasReceber = document.getElementById('salesChartContasReceber').getContext('2d');
 
-// Dados fictícios de receitas mensais
-const dataReceitas = {
-    labels: ['JANEIRO', 'FEVEREIRO', 'MARÇO', 'ABRIL', 'MAIO', 'JUNHO', 'JULHO', 'AGOSTO', 'SETEMBRO', 'OUTUBRO', 'NOVEMBRO', 'DEZEMBRO'],
+// Dados fictícios de contas a receber mensais
+const dataContasReceber = {
+    labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'], // Rótulos para os meses
     datasets: [{
         label: 'RECEITAS',  // Nome da linha no gráfico
-        data: [9000, 6000, 8000, 6000, 9000, 12000, 8000, 5000, 7500, 4000, 12000, 19000], // Dados de receitas
+        data: [13602, 11488, 15076, 16395, 10432, 18591, 8093, 14055, 18217, 10134, 9350, 14680], // Dados de contas a receber
         backgroundColor: 'rgba(0, 204, 0, 0.2)', // Cor de preenchimento da linha (verde semi-transparente)
         borderColor: 'rgb(0, 204, 0)', // Cor da linha do gráfico (verde sólido)
         borderWidth: 3, // Espessura da linha
@@ -23,9 +23,9 @@ const dataReceitas = {
 };
 
 // Configuração do gráfico
-const configReceitas = {
-    type: 'line', // Define que o gráfico será de linha
-    data: dataReceitas, // Dados a serem exibidos no gráfico
+const configContasReceber = {
+    type: 'line', // Define o tipo de gráfico 
+    data: dataContasReceber, // Dados a serem exibidos no gráfico
     options: {
         responsive: true, // Faz o gráfico se ajustar automaticamente ao tamanho da tela
         maintainAspectRatio: false, // Permite que o gráfico ajuste sua proporção
@@ -91,4 +91,4 @@ const configReceitas = {
 };
 
 // Renderiza o gráfico utilizando os dados e configurações definidas acima
-new Chart(ctxReceitas, configReceitas);
+new Chart(ctxContasReceber, configContasReceber);

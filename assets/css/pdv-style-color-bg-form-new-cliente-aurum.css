@@ -32,6 +32,7 @@ body {
 h2 {
     font-family: "Baumans", system-ui; /* Fonte do título */
     font-weight: 600; /* Peso da fonte */
+    cursor: pointer; /* Torna o subtítulo clicável */
     font-size: 5rem; /* Tamanho grande do título */
     color: #000000; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */

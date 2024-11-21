@@ -1,13 +1,13 @@
-// Seleciona o contexto do canvas onde o gráfico de vendas por hora será desenhado
-const ctxVendasHora = document.getElementById('salesChartVendasHora').getContext('2d');
+// Seleciona o contexto do canvas onde o gráfico de gestão de dívidas por hora será desenhado
+const ctxGestaoDividas = document.getElementById('salesChartGestaoDividas').getContext('2d');
 
-// Dados fictícios representando as vendas por hora ao longo do dia
-const dataVendasHora = {
-    labels: ['08:00', '09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'], // Horários do dia
+// Dados fictícios representando a gestão de dívidas por hora ao longo do dia
+const dataGestaoDividas = {
+    labels: ['JAN', 'FEV', 'MAR', 'ABR', 'MAI', 'JUN', 'JUL', 'AGO', 'SET', 'OUT', 'NOV', 'DEZ'], // Rótulos para os meses
     datasets: [
         {
-            label: 'VENDAS POR HORA', // Nome do conjunto de dados
-            data: [5000, 7000, 3000, 9000, 13000, 6000, 9000, 13000, 7000, 25000, 35000], // Valores
+            label: 'DIVIDAS', // Nome do conjunto de dados
+            data: [5000, 7000, 3000, 9000, 13000, 6000, 9000, 13000, 7000, 25000, 35000, 15000], // Valores fictícios de dívidas
             backgroundColor: 'rgba(255, 102, 0, 0.5)', // Cor de preenchimento
             borderColor: 'rgb(255, 102, 0)', // Cor da linha
             borderWidth: 3, // Espessura da linha
@@ -24,9 +24,9 @@ const dataVendasHora = {
 };
 
 // Configuração geral do gráfico (como o tipo e as opções visuais)
-const configVendasHora = {
-    type: 'bar', // Define o tipo do gráfico
-    data: dataVendasHora, // Dados
+const configGestaoDividas = {
+    type: 'line', // Define o tipo do gráfico
+    data: dataGestaoDividas, // Dados
     options: {
         responsive: true, // Ajusta automaticamente
         maintainAspectRatio: false, // Ajusta proporção ao redimensionar
@@ -49,7 +49,7 @@ const configVendasHora = {
                 beginAtZero: true, // Começa em 0
                 title: {
                     display: true,
-                    text: '20 NOVEMBRO 2024', // Título do eixo Y
+                    text: 'ANO 2024', // Título do eixo Y
                     color: '#ff6600', // Cor do título
                     font: (ctx) => ({
                         size: ctx.chart.width < 480 ? 12 : 16, // Tamanho dinâmico da fonte
@@ -90,4 +90,4 @@ const configVendasHora = {
 };
 
 // Cria e renderiza o gráfico no contexto especificado
-new Chart(ctxVendasHora, configVendasHora);
+new Chart(ctxGestaoDividas, configGestaoDividas);
