@@ -88,98 +88,98 @@
             <div class="col col-narrow">
                 <h5><i class="fa fa-star" aria-hidden="true"></i> FAVORITOS</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-star" aria-hidden="true"></i> FAVORITO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
                 </div>
 
                 <h5><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-cube" aria-hidden="true"></i> PRODUTO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
                 </div>
                 
                 <h5><i class="fa fa-circle" aria-hidden="true"></i> MARCA</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> MARCA</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
                 </div>
 
                 <h5><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-certificate" aria-hidden="true"></i> MODELO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
                 </div>
 
-                <h5><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</h5>
+                <h5><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tags" aria-hidden="true"></i> GRUPO</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-tag" aria-hidden="true"></i> GRUPO</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye"  aria-hidden="true"></i> MAIS</button>
                 </div>
 
                 <h5><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> FORNECEDOR</button>
-                <button id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-truck" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-circle" aria-hidden="true"></i> FORNECEDOR</button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page-search"><i class="fa fa-eye" aria-hidden="true"></i> MAIS</button>
                 </div>
 
             </div>
@@ -187,7 +187,7 @@
 
             <div class="col .col-wide">
                 <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVA VENDA</h5>
-                <button id="btn-bg-vender-new-venda-page-search-form"><i class="fa fa-search"></i> PESQUISAR</button>
+                <button id="btn-bg-vender-new-venda-page-search-form"><i class="fa fa-search"></i> PESQUISAR PRODUTO</button>
                 <table class="table table-bordered">
                     <tr>
                         <td>CÓDIGO</td>
@@ -315,15 +315,15 @@
                 <div id="total-venda-new-venda-page">R$ 0.00</div>
                 <h5><i class="fa fa-shopping-cart" aria-hidden="true"></i> VENDA</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page">REALIZAR VENDA <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">CANCELAR VENDA <i class="fa fa-times" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">ADICIONAR ITEM <i class="fa fa-times" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">REMOVER ITEM <i class="fa fa-times" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">REALIZAR VENDA <i class="fa fa-shopping-cart" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">CANCELAR VENDA <i class="fa fa-times" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">ADICIONAR ITEM <i class="fa fa-times" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">REMOVER ITEM <i class="fa fa-times" aria-hidden="true"></i></button>
                 
-                <button id="btn-bg-vender-new-venda-page">DESCONTO ITEM <i class="fa fa-random" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">DESCONTO TOTAL <i class="fa fa-refresh" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">INSERIR VENDEDOR <i class="fa fa-user" aria-hidden="true"></i></button>  
-                <button id="btn-bg-vender-new-venda-page">INSERIR CLIENTE <i class="fa fa-user" aria-hidden="true"></i></button> 
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">DESCONTO ITEM <i class="fa fa-random" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">DESCONTO TOTAL <i class="fa fa-refresh" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">INSERIR VENDEDOR <i class="fa fa-user" aria-hidden="true"></i></button>  
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">INSERIR CLIENTE <i class="fa fa-user" aria-hidden="true"></i></button> 
                 </div>
 
                 <h5><i class="fa fa-user" aria-hidden="true"></i> CLIENTE</h5>
@@ -336,15 +336,15 @@
 
                 <h5><i class="fa fa-money" aria-hidden="true"></i> PAGAMENTO</h5>
                 <div class="button-container">
-                <button id="btn-bg-vender-new-venda-page">CRÉDITO <i class="fa fa-money" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">DÉBITO <i class="fa fa-money" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">DINHEIRO <i class="fa fa-money" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">PIX <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">CRÉDITO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">DÉBITO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">DINHEIRO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">PIX <i class="fa fa-money" aria-hidden="true"></i></button>
 
-                <button id="btn-bg-vender-new-venda-page">PRÊMIO <i class="fa fa-money" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">TROCA <i class="fa fa-money" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">FIADO <i class="fa fa-money" aria-hidden="true"></i></button>
-                <button id="btn-bg-vender-new-venda-page">VOUCHER <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">PRÊMIO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">TROCA <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">FIADO <i class="fa fa-money" aria-hidden="true"></i></button>
+                <button onclick="window.location.href='../default/view-new-default-aurum-doc-pdv.php';" id="btn-bg-vender-new-venda-page">VOUCHER <i class="fa fa-money" aria-hidden="true"></i></button>
                 </div>
 
                 <h5><i class="fa fa-sticky-note" aria-hidden="true"></i> OBSERVAÇÕES</h5>

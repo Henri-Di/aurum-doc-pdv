@@ -1,0 +1,348 @@
+/* ===== Reset básico para todos os elementos ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e borda não afetam o cálculo da largura */
+}
+
+/* ===== Estilos do Body ===== */
+body {
+    background-color: #ffcc00; /* Cor de fundo do corpo */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte usada em todo o site */
+    display: flex;
+    justify-content: center; /* Alinha o conteúdo horizontalmente */
+    align-items: center; /* Alinha o conteúdo verticalmente */
+    min-height: 100vh; /* Garante que a altura mínima seja a altura da tela */
+    height: auto; /* Ajusta a altura automaticamente */
+}
+
+/* ===== Container principal ===== */
+.container {
+    width: 100%; /* Largura total */
+    max-width: 1200px; /* Largura máxima */
+    padding: 1rem; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column; /* Organiza os itens de forma vertical */
+    align-items: center; /* Centraliza os itens */
+    justify-content: center; /* Centraliza os itens */
+}
+
+/* ===== Título principal (h2) ===== */
+h2 {
+    font-family: "Baumans", system-ui; /* Fonte do título */
+    font-weight: 600; /* Peso da fonte */
+    cursor: pointer; /* Torna o subtítulo clicável */
+    font-size: 5rem; /* Tamanho grande do título */
+    color: #000000; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-bottom: 0; /* Remove o espaço abaixo do título */
+}
+
+/* ===== Subtítulo (h6) ===== */
+h6 {
+    font-family: "Baumans", system-ui; /* Fonte do subtítulo */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Indica que o elemento é interativo */
+    margin-top: -0.5rem; /* Remove o espaçamento acima do subtítulo */
+    padding-bottom: 0.5rem; /* Espaço abaixo do subtítulo */
+    border-bottom: 2px solid #000000; /* Linha abaixo do subtítulo */
+    color: #000000; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* ===== Ícone (fa-child) ===== */
+.fa-child {
+    color: #000000; /* Cor do ícone */
+    font-size: 2rem; /* Tamanho do ícone */
+}
+
+/* ===== Linha (row) com efeito de vidro ===== */
+.row {
+    background-color: #f0f0f5; /* Cor de fundo clara */
+    backdrop-filter: blur(15px); /* Efeito de desfoque de fundo */
+    -webkit-backdrop-filter: blur(15px); /* Suporte para navegadores Webkit */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borda leve e translúcida */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 70%; /* Largura de 70% da tela */
+    max-width: 100%; /* Largura máxima de 100% */
+    padding: 2rem; /* Espaçamento interno */
+    display: flex;
+    flex-wrap: wrap; /* Permite que os itens se ajustem conforme necessário */
+    gap: 2rem; /* Espaçamento entre os itens */
+    margin-top: 1rem; /* Espaçamento superior */
+    margin-bottom: 2rem; /* Espaçamento inferior */
+    justify-content: space-around; /* Distribui os itens de forma equilibrada */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil ao redor da linha */
+}
+
+/* ===== Coluna (col) ===== */
+.col {
+    flex: 1 1 45%; /* Cada coluna ocupa 45% do espaço disponível */
+    min-width: 300px; /* Largura mínima */
+    max-width: 700px; /* Largura máxima */
+    height: auto; /* Altura automática */
+    padding: 1.5rem; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+h3 {
+    font-family: "Barlow Condensed", sans-serif; /* Fonte do subtítulo dentro das colunas */
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #000000; /* Cor do texto */
+    padding: 2rem 1rem; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    margin-top: -0.4rem; /* Remove o espaçamento superior */
+    margin-bottom: 0; /* Remove o espaçamento inferior */
+    border: 1px solid #000000; /* Borda ao redor do título */
+    background-color: transparent; /* Fundo transparente */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* ===== Estilo Geral do Formulário ===== */
+form {
+    display: grid; /* Exibe o formulário como um grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de largura igual */
+    gap: 1.5rem; /* Espaçamento entre os elementos do formulário */
+    width: 100%; /* Largura total */
+    max-width: 100%; /* Largura máxima de 100% */
+    margin: 0.5rem auto; /* Espaçamento automático superior e inferior */
+    background-color: rgba(255, 255, 255, 1.0); /* Cor de fundo sólida */
+    padding: 5rem; /* Espaçamento interno */
+    border: 1px solid #000000; /* Borda ao redor do formulário */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil ao redor do formulário */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte usada no formulário */
+    text-align: center; /* Alinha o texto ao centro */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura */
+}
+
+/* ===== Estilo do Label ===== */
+form label {
+    font-size: 1rem; /* Tamanho da fonte */
+    font-weight: 550; /* Peso da fonte */
+    color: #000000; /* Cor do texto */
+    padding: 0.5rem; /* Espaçamento interno */
+    background-color: #d1d1e0; /* Cor de fundo do label */
+    margin-bottom: 0.5rem; /* Espaço abaixo do label */
+    text-align: center; /* Alinha o texto ao centro */
+    border-radius: 3px; /* Bordas arredondadas */
+    border: none; /* Remove a borda padrão */
+    display: block; /* Exibe o label como bloco */
+}
+
+/* ===== Estilo do Input ===== */
+form input {
+    width: 100%; /* Largura total */
+    padding: 0.2rem; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    text-align: center; /* Alinha o texto ao centro */
+    outline: none; /* Remove a borda de foco */
+    color: #000000; /* Cor do texto */
+    border-radius: 3px; /* Bordas arredondadas */
+    border: 1px solid #000000; /* Borda ao redor do campo de entrada */
+    background-color: transparent; /* Fundo transparente */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura */
+}
+
+/* ===== Estilo do Select ===== */
+form select {
+    width: 100%; /* Largura total */
+    padding: 0.2rem; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    outline: none; /* Remove a borda de foco */
+    text-align: center; /* Alinha o texto ao centro */
+    color: #000000; /* Cor do texto */
+}
+
+
+/* ===== Container para os botões ===== */
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Organiza os botões em duas colunas */
+    margin-top: 1rem; /* Espaço entre o container e o conteúdo acima */
+}
+
+/* ===== Estilos para os botões ===== */
+#btn-bg-form-aurum-page {
+    color: #000000; /* Cor do texto */
+    width: 80px; /* Largura fixa para o botão */
+    height: 30px; /* Altura fixa para o botão */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    border-radius: 3px; /* Bordas arredondadas */
+    cursor: pointer; /* Mudança do cursor para indicar que é clicável */
+    transition: background-color 0.7s ease, transform 0.7s ease; /* Efeito de transição suave no background e no transform */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    border: 1px solid #000000; /* Borda preta ao redor do botão */
+    margin-left: 0.7rem; /* Espaçamento à esquerda do botão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil ao redor do formulário */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo de largura e altura */
+}
+
+/* ===== Efeito de hover para os botões ===== */
+#btn-bg-form-aurum-page:hover {
+    background-color: #000000; /* Altera o fundo para preto */
+    color: #ffffff; /* Muda a cor do texto para branco */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse */
+}
+
+#btn-pessoa-juridica-bg-color-aurum{
+    color: #000000; /* Cor do texto */
+    padding: 0.5rem;
+    width: 150px; /* Largura fixa para o botão */
+    height: auto; /* Altura fixa para o botão */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    border-radius: 3px; /* Bordas arredondadas */
+    margin-bottom: 1rem;
+    cursor: pointer; /* Mudança do cursor para indicar que é clicável */
+    transition: background-color 0.7s ease, transform 0.7s ease; /* Efeito de transição suave no background e no transform */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    border: 1px solid #000000; /* Borda preta ao redor do botão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil ao redor do formulário */
+}
+
+/* ===== Efeito de hover para os botões ===== */
+#btn-pessoa-juridica-bg-color-aurum:hover {
+    background-color: #000000; /* Altera o fundo para preto */
+    color: #ffffff; /* Muda a cor do texto para branco */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse */
+}
+
+/* ===== Ajustes de layout para telas pequenas (Máximo de 768px) ===== */
+@media (max-width: 768px) {
+    form {
+        grid-template-columns: 1fr; /* Formulário em uma coluna única */
+        padding: 3rem; /* Reduz o padding para evitar overflow */
+    }
+
+    .row {
+        width: 90%; /* Garante que a linha ocupe 90% da largura da tela */
+    }
+
+    h2 {
+        font-size: 4rem; /* Ajusta o tamanho do título */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 2.5rem; /* Ajusta o tamanho do ícone */
+    }
+}
+
+/* ===== Ajustes para telas médias - Tablets (768px a 1024px) ===== */
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 4rem; /* Ajusta o tamanho do título */
+        margin-bottom: -0.5rem; /* Ajusta a margem inferior */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 2.5rem; /* Ajusta o tamanho do ícone */
+    }
+
+    form {
+        padding: 4rem; /* Ajusta o padding do formulário para não ultrapassar a tela */
+    }
+}
+
+/* ===== Ajustes para telas pequenas - Smartphones (480px a 767px) ===== */
+@media (max-width: 767px) {
+    h2 {
+        font-size: 3rem; /* Reduz o tamanho do título */
+        margin-bottom: 0rem; /* Remove a margem inferior */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 2rem; /* Ajusta o tamanho do ícone */
+    }
+
+    .row {
+        width: 100%; /* Garante que a linha ocupe 100% da largura da tela */
+        padding: 1.5rem; /* Ajusta o padding da linha */
+    }
+
+    .col {
+        width: 100%; /* Garante que as colunas ocupem 100% da largura disponível */
+        padding: 1rem; /* Ajusta o padding das colunas */
+    }
+
+    #btn-bg-form-aurum-page {
+        width: 95%; /* Garante que o botão ocupe toda a largura disponível */
+        height: auto; /* Ajusta a altura do botão automaticamente */
+    }
+}
+
+/* ===== Ajustes para telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
+@media (max-width: 480px) {
+    .row {
+        width: 100%; /* Garante que a linha ocupe 100% da tela */
+    }
+
+    h2 {
+        font-size: 2.5rem; /* Reduz ainda mais o tamanho do título */
+        margin-bottom: -0.5rem; /* Ajusta a margem inferior */
+    }
+
+    h6 {
+        font-size: 1rem; /* Ajusta o tamanho do subtítulo para telas muito pequenas */
+        margin-top: 0.5rem; /* Ajusta a margem superior */
+        padding-bottom: 0.25rem; /* Ajusta o padding inferior */
+    }
+
+    .fa-child {
+        font-size: 1.5rem; /* Ajusta o tamanho do ícone para telas pequenas */
+    }
+
+    form {
+        padding: 3rem; /* Reduz o padding do formulário */
+    }
+
+    #btn-bg-form-aurum-page {
+        font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
+        padding: 0.3rem; /* Ajusta o padding do botão */
+        height: auto; /* Ajusta a altura do botão automaticamente */
+    }
+}
+
+/* ===== Ajustes para telas de alta resolução (acima de 175% de DPI) ===== */
+@media (min-resolution: 168dpi) and (min-width: 768px) {
+    body {
+        font-size: 1.2rem; /* Aumenta o tamanho da fonte para telas de alta resolução */
+    }
+
+    .row {
+        display: flex; /* Exibe os itens da linha em formato flexível */
+        flex-direction: column; /* Organiza os itens em coluna */
+        align-items: center; /* Alinha os itens ao centro */
+        padding: 4rem; /* Aumenta o padding da linha */
+        gap: 2rem; /* Adiciona um espaço entre os itens */
+    }
+
+    .col {
+        flex: none; /* Garante que as colunas não se estiquem */
+        width: 100%; /* Garante que as colunas ocupem toda a largura */
+        max-width: 600px; /* Limita a largura máxima das colunas */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Adiciona sombra às colunas */
+        border-radius: 8px; /* Arredonda as bordas das colunas */
+    }
+
+    h2 {
+        font-size: 5.5rem; /* Aumenta o tamanho do título */
+    }
+
+    h6 {
+        font-size: 1.2rem; /* Aumenta o tamanho do subtítulo */
+    }
+}

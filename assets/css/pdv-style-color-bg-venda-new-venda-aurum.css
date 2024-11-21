@@ -32,7 +32,7 @@ h2 {
     font-weight: 600; /* Peso da fonte */
     font-size: 5rem; /* Tamanho da fonte */
     color: #000000; /* Cor do título */
-    cursor: pointer; /* Torna o subtítulo clicável */
+    cursor: pointer;
     text-align: center; /* Alinha o título ao centro */
     margin-bottom: 0; /* Remove margem inferior */
 }
@@ -76,7 +76,7 @@ h6 {
 
 /* ===== Coluna (col) para organizar elementos lado a lado ===== */
 .col {
-    flex: 1 1 45%; /* Flexível, com 45% de largura */
+    flex: 1 1 100%; /* Flexível, com 45% de largura */
     min-width: 300px; /* Largura mínima */
     max-width: 700px; /* Largura máxima */
     height: auto; /* Altura automática */

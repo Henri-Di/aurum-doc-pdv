@@ -1,0 +1,234 @@
+/* ===== Reset básico para todos os elementos ===== */
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o preenchimento padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui o padding e bordas no cálculo do tamanho do elemento */
+}
+
+/* ===== Estilos do Body ===== */
+body {
+    background-color: #ffcc00; /* Define a cor de fundo amarela */
+    box-sizing: border-box; /* Garante que o padding e as bordas não afetam o tamanho total do body */
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada para o texto */
+    display: flex; /* Usa flexbox para facilitar o layout */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    min-height: 100vh; /* Garante que o body ocupe pelo menos 100% da altura da tela */
+    height: auto; /* Ajusta automaticamente a altura do body com base no conteúdo */
+}
+
+/* ===== Container principal ===== */
+.container {
+    width: 100%; /* Faz o container ocupar 100% da largura disponível */
+    max-width: 1200px; /* Define a largura máxima do container */
+    padding: 1rem; /* Adiciona um padding de 1rem em torno do conteúdo */
+    display: flex; /* Flexbox para alinhamento do conteúdo */
+    flex-direction: column; /* Organiza os itens em uma coluna */
+    align-items: center; /* Alinha os itens ao centro horizontalmente */
+    justify-content: center; /* Alinha os itens ao centro verticalmente */
+}
+
+/* ===== Título principal (h2) ===== */
+h2 {
+    font-family: "Baumans", system-ui; /* Fonte personalizada para o título */
+    font-weight: 600; /* Peso da fonte */
+    cursor: pointer; /* Torna o subtítulo clicável */
+    font-size: 5rem; /* Define o tamanho do título */
+    color: #000000; /* Cor preta para o título */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 0; /* Remove a margem inferior */
+}
+
+/* ===== Subtítulo (h6) ===== */
+h6 {
+    font-family: "Baumans", system-ui; /* Fonte personalizada para o subtítulo */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 1rem; /* Define o tamanho da fonte */
+    cursor: pointer; /* Indica que o elemento é interativo */
+    margin-top: -0.5rem; /* Ajusta o espaçamento superior */
+    padding-bottom: 0.5rem; /* Adiciona um padding inferior */
+    border-bottom: 2px solid #000000; /* Linha inferior para destacar o subtítulo */
+    color: #000000; /* Cor preta para o texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* ===== Ícone (fa-child) ===== */
+.fa-child {
+    color: #000000; /* Cor preta para o ícone */
+    font-size: 2rem; /* Define o tamanho do ícone */
+}
+
+/* ===== Linha (row) com efeito de vidro ===== */
+.row {
+    background-color: #f0f0f5; /* Cor de fundo suave para a linha */
+    backdrop-filter: blur(15px); /* Efeito de desfoque no fundo */
+    -webkit-backdrop-filter: blur(15px); /* Compatibilidade com navegadores antigos */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Borda leve com transparência */
+    border-radius: 10px; /* Bordas arredondadas */
+    width: 70%; /* Largura de 70% da tela */
+    max-width: 100%; /* Largura máxima de 100% */
+    padding: 1.5rem; /* Padding interno de 2rem */
+    display: flex; /* Flexbox para a disposição dos elementos */
+    flex-wrap: wrap; /* Permite a quebra de linha nos itens */
+    gap: 2rem; /* Espaçamento entre os itens */
+    margin-top: 1rem; /* Margem superior */
+    margin-bottom: 2rem; /* Margem inferior */
+    justify-content: space-around; /* Espaça os itens de forma uniforme */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra suave para dar destaque */
+}
+
+/* ===== Coluna (col) ===== */
+.col {
+    flex: 1 1 45%; /* Cada coluna ocupa 45% do espaço disponível */
+    min-width: 300px; /* Largura mínima das colunas */
+    max-width: 700px; /* Largura máxima das colunas */
+    height: auto; /* Ajusta a altura automaticamente */
+    padding: 1.5rem; /* Padding interno das colunas */
+    border-radius: 5px; /* Bordas arredondadas nas colunas */
+}
+
+p{
+    font-family: "Barlow Condensed", sans-serif; /* Fonte personalizada */
+    font-weight: 450;
+    font-size: 2.5rem; /* Tamanho da fonte */
+    text-align: center;
+    padding: 2rem;
+    color: #ffffff;
+    border-radius: 15px;
+    background-color: #000000;
+}
+
+/* ===== Ajuste de Layout para Telas Pequenas ===== */
+@media (max-width: 768px) {
+    /* Ajuste da largura da linha (row) */
+    .row {
+        width: 90%; /* Reduz a largura */
+    }
+
+    /* Ajuste do tamanho do título principal (h2) */
+    h2 {
+        font-size: 4rem; /* Tamanho da fonte menor */
+    }
+
+    /* Ajuste do subtítulo (h6) */
+    h6 {
+        font-size: 1.25rem; /* Tamanho da fonte maior */
+    }
+
+    /* Ajuste do tamanho do ícone (fa-child) */
+    .fa-child {
+        font-size: 2.5rem; /* Tamanho maior do ícone */
+    }
+}
+
+/* ===== Telas médias - Tablets (entre 768px e 1024px) ===== */
+@media (max-width: 1024px) {
+    /* Ajuste do título principal (h2) */
+    h2 {
+        font-size: 4rem; /* Tamanho da fonte ajustado */
+        margin-bottom: -0.5rem; /* Ajuste da margem inferior */
+    }
+
+    /* Ajuste do subtítulo (h6) */
+    h6 {
+        font-size: 1.25rem; /* Tamanho maior */
+    }
+
+    /* Ajuste do tamanho do ícone (fa-child) */
+    .fa-child {
+        font-size: 2.5rem; /* Tamanho maior do ícone */
+    }
+}
+
+/* ===== Telas pequenas - Smartphones (entre 480px e 767px) ===== */
+@media (max-width: 767px) {
+    /* Ajuste do título principal (h2) */
+    h2 {
+        font-size: 3rem; /* Tamanho do título menor */
+        margin-bottom: 0rem; /* Ajuste da margem inferior */
+    }
+
+    /* Ajuste do subtítulo (h6) */
+    h6 {
+        font-size: 1.25rem; /* Tamanho do subtítulo ajustado */
+    }
+
+    /* Ajuste do ícone (fa-child) */
+    .fa-child {
+        font-size: 2rem; /* Tamanho menor do ícone */
+    }
+
+    /* Ajuste da linha (row) para ocupar 100% da tela */
+    .row {
+        width: 100%; /* Ocupa toda a largura da tela */
+        padding: 1.5rem; /* Ajuste do padding */
+    }
+
+    /* Ajuste da coluna (col) para ocupar 100% da tela */
+    .col {
+        width: 100%; /* Ocupa toda a largura da tela */
+        padding: 1rem; /* Ajuste do padding */
+    }
+}
+
+/* ===== Telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
+@media (max-width: 480px) {
+    /* Ajuste da linha (row) para ocupar 100% da tela */
+    .row {
+        width: 100%; /* Ocupa toda a largura da tela */
+    }
+
+    /* Ajuste do título principal (h2) */
+    h2 {
+        font-size: 2.5rem; /* Tamanho do título ainda menor */
+        margin-bottom: -0.5rem; /* Ajuste da margem inferior */
+    }
+
+    /* Ajuste do subtítulo (h6) */
+    h6 {
+        font-size: 1rem; /* Tamanho menor do subtítulo */
+        margin-top: 0.5rem; /* Ajuste da margem superior */
+        padding-bottom: 0.25rem; /* Ajuste do padding inferior */
+    }
+
+    /* Ajuste do ícone (fa-child) */
+    .fa-child {
+        font-size: 1.5rem; /* Tamanho bem menor do ícone */
+    }
+}
+
+/* ===== Telas de alta resolução (175% ou superior) ===== */
+@media (min-resolution: 168dpi) and (min-width: 768px) {
+    /* Ajuste do tamanho da fonte do corpo para telas de alta resolução */
+    body {
+        font-size: 1.2rem; /* Fonte maior */
+    }
+
+    /* Ajuste da linha (row) com flex-direction em coluna */
+    .row {
+        display: flex; /* Flexbox */
+        flex-direction: column; /* Colunas empilhadas */
+        align-items: center; /* Alinha itens ao centro */
+        padding: 4rem; /* Padding ajustado */
+        gap: 2rem; /* Espaçamento entre os itens */
+    }
+
+    /* Ajuste da coluna (col) */
+    .col {
+        flex: none; /* Impede crescimento */
+        width: 100%; /* Largura total */
+        max-width: 600px; /* Largura máxima */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Sombra da caixa */
+        border-radius: 8px; /* Bordas arredondadas */
+    }
+
+    /* Ajuste do tamanho do título principal (h2) */
+    h2 {
+        font-size: 5.5rem; /* Fonte maior */
+    }
+
+    /* Ajuste do subtítulo (h6) */
+    h6 {
+        font-size: 1.2rem; /* Fonte maior do subtítulo */
+    }
+}
