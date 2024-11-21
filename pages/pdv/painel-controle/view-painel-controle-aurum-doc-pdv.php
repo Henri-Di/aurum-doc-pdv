@@ -12,6 +12,7 @@
     <!-- Bibliotecas de Estilo -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baumans&family=Bebas+Neue&family=Kanit:wght@100;400;700&display=swap" rel="stylesheet">
@@ -70,8 +71,8 @@
     </div>
 
     <div class="container">
-        <h2>AURUM</h2>
-        <h6>SISTEMA DE VENDAS <i class="fa fa-child" aria-hidden="true"></i></h6>
+        <h2 onclick="window.location.href='../painel-controle/view-painel-controle-aurum-doc-pdv.php';">AURUM</h2>
+        <h6 onclick="window.location.href='../painel-controle/view-painel-controle-aurum-doc-pdv.php';">SISTEMA DE VENDAS <i class="fa fa-child" aria-hidden="true"></i></h6>
 
         <div class="row">
             <div class="col col-narrow">
@@ -102,7 +103,7 @@
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ABRIR CAIXA</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='../vendas/view-new-venda-aurum-doc-pdv.php';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVA VENDA</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVA TROCA</button>
-                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO CLIENTE</button>
+                    <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='../clientes/view-new-cliente-aurum-doc-pdv.php';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO CLIENTE</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> NOVO VENDEDOR</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> PAGAMENTOS</button>
                     <button id="btn-bg-vender-new-venda-page-search" onclick="window.location.href='';"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ORÇAMENTO</button>
@@ -177,6 +178,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <!-- Scripts personalizados -->
 <script src="../../../assets/js/grafic-receita-bg-color-painel-controle.js"></script>

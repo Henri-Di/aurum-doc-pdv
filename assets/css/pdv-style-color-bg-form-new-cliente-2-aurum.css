@@ -146,6 +146,16 @@ form input {
     box-sizing: border-box; /* Inclui bordas e preenchimento no cálculo da largura */
 }
 
+/* ===== Estilo do Select ===== */
+form select {
+    width: 100%; /* Largura total */
+    padding: 0.2rem; /* Espaçamento interno */
+    font-size: 1rem; /* Tamanho da fonte */
+    outline: none; /* Remove a borda de foco */
+    text-align: center; /* Alinha o texto ao centro */
+    color: #000000; /* Cor do texto */
+}
+
 /* ===== Estilo do botão do formulário ===== */
 #btn-bg-form-aurum-page {
     color: #000000; /* Cor do texto */
@@ -168,18 +178,162 @@ form input {
     transform: scale(1.05); /* Aumenta um pouco o tamanho do botão */
 }
 
-/* ===== Ajustes para telas pequenas ===== */
+#btn-pessoa-juridica-bg-color-aurum{
+    color: #000000; /* Cor do texto */
+    padding: 0.5rem;
+    width: 150px; /* Largura fixa para o botão */
+    height: auto; /* Altura fixa para o botão */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    border-radius: 3px; /* Bordas arredondadas */
+    margin-bottom: 1rem;
+    cursor: pointer; /* Mudança do cursor para indicar que é clicável */
+    transition: background-color 0.7s ease, transform 0.7s ease; /* Efeito de transição suave no background e no transform */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    border: 1px solid #000000; /* Borda preta ao redor do botão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil ao redor do formulário */
+}
+
+/* ===== Efeito de hover para os botões ===== */
+#btn-pessoa-juridica-bg-color-aurum:hover {
+    background-color: #000000; /* Altera o fundo para preto */
+    color: #ffffff; /* Muda a cor do texto para branco */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse */
+}
+
+/* ===== Ajustes de layout para telas pequenas (Máximo de 768px) ===== */
 @media (max-width: 768px) {
     form {
-        grid-template-columns: 1fr; /* Uma coluna em telas menores */
-        padding: 3rem; /* Reduz o padding para caber melhor */
+        grid-template-columns: 1fr; /* Formulário em uma coluna única */
+        padding: 3rem; /* Reduz o padding para evitar overflow */
     }
 
     .row {
-        width: 90%; /* Largura de 90% para adaptação */
+        width: 90%; /* Garante que a linha ocupe 90% da largura da tela */
     }
 
-    .container {
-        width: 90%; /* Largura de 90% */
+    h2 {
+        font-size: 4rem; /* Ajusta o tamanho do título */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 2.5rem; /* Ajusta o tamanho do ícone */
+    }
+}
+
+/* ===== Ajustes para telas médias - Tablets (768px a 1024px) ===== */
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 4rem; /* Ajusta o tamanho do título */
+        margin-bottom: -0.5rem; /* Ajusta a margem inferior */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 2.5rem; /* Ajusta o tamanho do ícone */
+    }
+
+    form {
+        padding: 4rem; /* Ajusta o padding do formulário para não ultrapassar a tela */
+    }
+}
+
+/* ===== Ajustes para telas pequenas - Smartphones (480px a 767px) ===== */
+@media (max-width: 767px) {
+    h2 {
+        font-size: 3rem; /* Reduz o tamanho do título */
+        margin-bottom: 0rem; /* Remove a margem inferior */
+    }
+
+    h6 {
+        font-size: 1.25rem; /* Ajusta o tamanho do subtítulo */
+    }
+
+    .fa-child {
+        font-size: 2rem; /* Ajusta o tamanho do ícone */
+    }
+
+    .row {
+        width: 100%; /* Garante que a linha ocupe 100% da largura da tela */
+        padding: 1.5rem; /* Ajusta o padding da linha */
+    }
+
+    .col {
+        width: 100%; /* Garante que as colunas ocupem 100% da largura disponível */
+        padding: 1rem; /* Ajusta o padding das colunas */
+    }
+
+    #btn-bg-form-aurum-page {
+        width: 95%; /* Garante que o botão ocupe toda a largura disponível */
+        height: auto; /* Ajusta a altura do botão automaticamente */
+    }
+}
+
+/* ===== Ajustes para telas extra pequenas - Celulares compactos (abaixo de 480px) ===== */
+@media (max-width: 480px) {
+    .row {
+        width: 100%; /* Garante que a linha ocupe 100% da tela */
+    }
+
+    h2 {
+        font-size: 2.5rem; /* Reduz ainda mais o tamanho do título */
+        margin-bottom: -0.5rem; /* Ajusta a margem inferior */
+    }
+
+    h6 {
+        font-size: 1rem; /* Ajusta o tamanho do subtítulo para telas muito pequenas */
+        margin-top: 0.5rem; /* Ajusta a margem superior */
+        padding-bottom: 0.25rem; /* Ajusta o padding inferior */
+    }
+
+    .fa-child {
+        font-size: 1.5rem; /* Ajusta o tamanho do ícone para telas pequenas */
+    }
+
+    form {
+        padding: 3rem; /* Reduz o padding do formulário */
+    }
+
+    #btn-bg-form-aurum-page {
+        font-size: 1rem; /* Ajusta o tamanho da fonte do botão */
+        padding: 0.3rem; /* Ajusta o padding do botão */
+        height: auto; /* Ajusta a altura do botão automaticamente */
+    }
+}
+
+/* ===== Ajustes para telas de alta resolução (acima de 175% de DPI) ===== */
+@media (min-resolution: 168dpi) and (min-width: 768px) {
+    body {
+        font-size: 1.2rem; /* Aumenta o tamanho da fonte para telas de alta resolução */
+    }
+
+    .row {
+        display: flex; /* Exibe os itens da linha em formato flexível */
+        flex-direction: column; /* Organiza os itens em coluna */
+        align-items: center; /* Alinha os itens ao centro */
+        padding: 4rem; /* Aumenta o padding da linha */
+        gap: 2rem; /* Adiciona um espaço entre os itens */
+    }
+
+    .col {
+        flex: none; /* Garante que as colunas não se estiquem */
+        width: 100%; /* Garante que as colunas ocupem toda a largura */
+        max-width: 600px; /* Limita a largura máxima das colunas */
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2); /* Adiciona sombra às colunas */
+        border-radius: 8px; /* Arredonda as bordas das colunas */
+    }
+
+    h2 {
+        font-size: 5.5rem; /* Aumenta o tamanho do título */
+    }
+
+    h6 {
+        font-size: 1.2rem; /* Aumenta o tamanho do subtítulo */
     }
 }

@@ -175,11 +175,34 @@ form select {
     text-align: center; /* Centraliza o texto dentro do botão */
     border: 1px solid #000000; /* Borda preta ao redor do botão */
     margin-left: 0.7rem; /* Espaçamento à esquerda do botão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil ao redor do formulário */
     box-sizing: border-box; /* Inclui padding e borda no cálculo de largura e altura */
 }
 
 /* ===== Efeito de hover para os botões ===== */
 #btn-bg-form-aurum-page:hover {
+    background-color: #000000; /* Altera o fundo para preto */
+    color: #ffffff; /* Muda a cor do texto para branco */
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse */
+}
+
+#btn-pessoa-juridica-bg-color-aurum{
+    color: #000000; /* Cor do texto */
+    padding: 0.5rem;
+    width: 150px; /* Largura fixa para o botão */
+    height: auto; /* Altura fixa para o botão */
+    font-size: 1.25rem; /* Tamanho da fonte */
+    border-radius: 3px; /* Bordas arredondadas */
+    margin-bottom: 1rem;
+    cursor: pointer; /* Mudança do cursor para indicar que é clicável */
+    transition: background-color 0.7s ease, transform 0.7s ease; /* Efeito de transição suave no background e no transform */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    border: 1px solid #000000; /* Borda preta ao redor do botão */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra sutil ao redor do formulário */
+}
+
+/* ===== Efeito de hover para os botões ===== */
+#btn-pessoa-juridica-bg-color-aurum:hover {
     background-color: #000000; /* Altera o fundo para preto */
     color: #ffffff; /* Muda a cor do texto para branco */
     transform: scale(1.05); /* Aumenta ligeiramente o tamanho do botão ao passar o mouse */

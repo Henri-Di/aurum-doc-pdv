@@ -77,8 +77,8 @@
     <!-- Container Principal -->
     <div class="container">
         <!-- Título Principal -->
-        <h2>AURUM</h2>
-        <h6>SISTEMA DE VENDAS <i class="fa fa-child"></i></h6>
+        <h2 onclick="window.location.href='../painel-controle/view-painel-controle-aurum-doc-pdv.php';">AURUM</h2>
+        <h6 onclick="window.location.href='../painel-controle/view-painel-controle-aurum-doc-pdv.php';">SISTEMA DE VENDAS <i class="fa fa-child"></i></h6>
 
         <!-- Seção do Formulário -->
         <div class="row">
