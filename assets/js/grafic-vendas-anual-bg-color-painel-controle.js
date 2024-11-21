@@ -6,9 +6,9 @@ const dataVendas = {
     labels: ['JANEIRO', 'FEVEREIRO', 'MARÇO', 'ABRIL', 'MAIO', 'JUNHO', 'JULHO', 'AGOSTO', 'SETEMBRO', 'OUTUBRO', 'NOVEMBRO', 'DEZEMBRO'], // Meses do ano
     datasets: [
         {
-            label: 'VENDAS', // Nome do conjunto de dados (o título que aparece na legenda)
+            label: 'VENDAS ANUAL', // Nome do conjunto de dados (o título que aparece na legenda)
             data: [5000, 7000, 3000, 9000, 13000, 6000, 9000, 13000, 7000, 25000, 35000], // Valores das vendas para cada mês
-            backgroundColor: 'rgb(153, 0, 204, 0.2)', // Cor de preenchimento da área abaixo da linha (cor suave e semi-transparente)
+            backgroundColor: 'rgb(153, 0, 204, 0.5)', // Cor de preenchimento da área abaixo da linha (cor suave e semi-transparente)
             borderColor: 'rgb(153, 0, 204)', // Cor da linha que conecta os pontos (linha roxa sólida)
             borderWidth: 3, // Espessura da linha do gráfico
             tension: 0.4, // Suaviza a linha, criando uma curva mais suave entre os pontos
@@ -16,7 +16,7 @@ const dataVendas = {
             pointBorderColor: '#000000', // Cor da borda dos pontos (preto)
             pointBorderWidth: 2, // Espessura da borda dos pontos
             pointRadius: 4, // Tamanho dos pontos no gráfico
-            pointHoverBackgroundColor: '#00ff00', // Cor dos pontos quando o mouse passa sobre eles (verde claro)
+            pointHoverBackgroundColor: '#ffcc00', // Cor dos pontos quando o mouse passa sobre eles (verde claro)
             pointHoverBorderColor: '#000000', // Cor da borda dos pontos ao passar o mouse (preto)
             pointHoverRadius: 6, // Tamanho dos pontos ao passar o mouse
         },
@@ -25,7 +25,7 @@ const dataVendas = {
 
 // Configuração geral do gráfico (como o tipo e as opções visuais)
 const configVendas = {
-    type: 'line', // Define o tipo do gráfico como linha (pode mudar para 'bar' para barras, por exemplo)
+    type: 'bar', // Define o tipo do gráfico como linha (pode mudar para 'bar' para barras, por exemplo)
     data: dataVendas, // Dados a serem exibidos no gráfico
     options: {
         responsive: true, // Permite que o gráfico se ajuste automaticamente ao tamanho da tela

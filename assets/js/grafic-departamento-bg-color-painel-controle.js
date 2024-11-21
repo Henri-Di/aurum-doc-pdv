@@ -31,7 +31,7 @@ const dataDepartamentos = {
             pointBorderColor: '#000000', // Cor da borda dos pontos (preto)
             pointBorderWidth: 2, // Espessura da borda dos pontos
             pointRadius: 4, // Tamanho dos pontos no gráfico
-            pointHoverBackgroundColor: '#00ff00', // Cor dos pontos ao passar o mouse (verde)
+            pointHoverBackgroundColor: '#ffcc00', // Cor dos pontos ao passar o mouse (verde)
             pointHoverBorderColor: '#000000', // Cor da borda dos pontos ao passar o mouse (preto)
             pointHoverRadius: 6, // Tamanho dos pontos ao passar o mouse
         },

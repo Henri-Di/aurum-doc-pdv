@@ -160,7 +160,7 @@ h6 {
 }
 
 /* ===== Estilos para os cards de receitas, despesas, vendas e departamentos ===== */
-#receitas, #despesas, #vendas, #departamentos {
+#receitas, #despesas, #vendas, #departamentos, #vendashora {
     background-color: #ffffff; /* Fundo branco para os cards */
     border-radius: 8px; /* Bordas arredondadas */
     border: 1px solid #000000; /* Borda preta */
@@ -178,7 +178,8 @@ h6 {
 
 /* ===== Estilos para os gráficos (salesChart) ===== */
 #salesChartReceitas, #salesChartDespesas,
-#salesChartVendas, #salesChartDepartamentos {
+#salesChartVendas, #salesChartDepartamentos,
+#salesChartVendasHora {
     width: 100%; /* Largura total disponível para os gráficos */
     height: auto; /* Altura automática */
     max-height:200px; /* Limite máximo de altura */
@@ -187,7 +188,7 @@ h6 {
 
 /* Efeito de hover nos gráficos (quando o mouse passa por cima) */
 #salesChartReceitas:hover, #salesChartDespesas:hover,
-#salesChartVendas:hover, #salesChartDepartamentos:hover {
+#salesChartVendas:hover, #salesChartDepartamentos:hover, #salesChartVendasHora:hover {
     transform: scale(1.05); /* Aumenta ligeiramente o tamanho do gráfico */
 }
 
