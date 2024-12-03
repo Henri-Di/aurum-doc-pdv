@@ -1,4 +1,3 @@
-🚀 Novidade no Ar!
 
 🎯 Desenvolvimento do Projeto Aurum - Sistema de Vendas
 
